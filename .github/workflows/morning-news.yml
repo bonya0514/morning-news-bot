@@ -26,7 +26,7 @@ jobs:
 
       - name: Run bot
         env:
-          GEMINI_API_KEY:           ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY:             ${{ secrets.GROQ_API_KEY }}
           DISCORD_WEBHOOK_NEWS:     ${{ secrets.DISCORD_WEBHOOK_NEWS }}
           DISCORD_WEBHOOK_GUNPLA:   ${{ secrets.DISCORD_WEBHOOK_GUNPLA }}
           DISCORD_BOT_TOKEN:        ${{ secrets.DISCORD_BOT_TOKEN }}

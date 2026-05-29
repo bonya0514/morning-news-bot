@@ -10,14 +10,13 @@ import json
 import datetime
 import requests
 import yaml
-from google import genai
-from google.genai import types
+from groq import Groq
 
 # ── 設定読み込み ──────────────────────────────────────
 with open("config.yml", "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
-GEMINI_API_KEY       = os.environ["GEMINI_API_KEY"]
+GROQ_API_KEY         = os.environ["GROQ_API_KEY"]
 DISCORD_NEWS_URL     = os.environ["DISCORD_WEBHOOK_NEWS"]
 DISCORD_GUNPLA_URL   = os.environ["DISCORD_WEBHOOK_GUNPLA"]
 DISCORD_BOT_TOKEN    = os.environ["DISCORD_BOT_TOKEN"]
@@ -26,20 +25,17 @@ DISCORD_GUILD_ID     = os.environ["DISCORD_GUILD_ID"]
 today     = datetime.date.today()
 today_str = today.strftime("%Y年%m月%d日")
 
-# ── Gemini クライアント ───────────────────────────────
-client = genai.Client(api_key=GEMINI_API_KEY)
+# ── Groq クライアント ─────────────────────────────────
+client = Groq(api_key=GROQ_API_KEY)
 
 def ask_gemini(prompt: str) -> str:
-    """Gemini にプロンプトを投げてテキストを返す"""
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            tools=[types.Tool(google_search=types.GoogleSearch())],
-            temperature=0.4,
-        ),
+    """Groq にプロンプトを投げてテキストを返す"""
+    response = client.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.4,
     )
-    return response.text.strip()
+    return response.choices[0].message.content.strip()
 
 
 def post_discord(webhook_url: str, content: str) -> None:
