@@ -42,7 +42,7 @@ def search_from_sites(query: str, sites: list, max_results: int = 3, days: int =
                 json={
                     "api_key": TAVILY_API_KEY,
                     "query": query,
-                    "search_depth": "basic",
+                    "search_depth": "advanced",
                     "topic": "news",
                     "max_results": max_results,
                     "include_domains": [site],

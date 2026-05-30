@@ -4,21 +4,21 @@
 news_categories:
   - name: テクノロジー・AI
     emoji: 🤖
-    query: "AI テクノロジー 最新ニュース"
+    query: "AI 人工知能 ChatGPT 新機能 発表"
     sites:
-      - gigazine.net
       - itmedia.co.jp
+      - ascii.jp
 
   - name: ガジェット
     emoji: 📱
-    query: "ガジェット スマートフォン 新製品"
+    query: "スマートフォン イヤホン 新製品 発売 レビュー"
     sites:
       - gizmodo.jp
       - japanese.engadget.com
 
   - name: ゲーム
     emoji: 🎮
-    query: "ゲーム 新作 発売"
+    query: "新作ゲーム 発売日 Nintendo Switch PS5"
     sites:
       - www.4gamer.net
       - www.famitsu.com
