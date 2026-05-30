@@ -1,6 +1,7 @@
 """
 Morning News Bot
-- Gemini API でニュース収集・まとめ生成
+- DuckDuckGo でニュース収集
+- Groq でまとめ生成
 - Discord Webhook に投稿
 - ガンプラ再販予定を Discord イベントに登録
 """
@@ -11,6 +12,7 @@ import datetime
 import requests
 import yaml
 from groq import Groq
+from duckduckgo_search import DDGS
 
 # ── 設定読み込み ──────────────────────────────────────
 with open("config.yml", "r", encoding="utf-8") as f:
@@ -28,7 +30,24 @@ today_str = today.strftime("%Y年%m月%d日")
 # ── Groq クライアント ─────────────────────────────────
 client = Groq(api_key=GROQ_API_KEY)
 
-def ask_gemini(prompt: str) -> str:
+
+def search_news(query: str, max_results: int = 5) -> str:
+    """DuckDuckGoでニュースを検索してテキストにまとめる"""
+    try:
+        with DDGS() as ddgs:
+            results = list(ddgs.news(query, max_results=max_results, region="jp-jp"))
+        if not results:
+            return "検索結果なし"
+        lines = []
+        for r in results:
+            lines.append(f"・{r.get('title', '')}（{r.get('source', '')}）\n  {r.get('body', '')}")
+        return "\n".join(lines)
+    except Exception as e:
+        print(f"検索エラー: {e}")
+        return "検索失敗"
+
+
+def ask_groq(prompt: str) -> str:
     """Groq にプロンプトを投げてテキストを返す"""
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
@@ -51,20 +70,19 @@ def post_discord(webhook_url: str, content: str) -> None:
 
 
 # ── ニュースまとめ生成 ────────────────────────────────
-def build_news_prompt() -> str:
+def build_news_message() -> str:
     categories = config["news_categories"]
-    cat_lines = "\n".join(
-        f'- {c["emoji"]} {c["name"]}（検索ワード: {c["query"]}）'
-        for c in categories
-    )
-    return f"""今日（{today_str}）の以下カテゴリの最新ニュースを日本語で簡潔にまとめてください。
+    sections = []
+    for cat in categories:
+        print(f"  検索中: {cat['name']}")
+        raw = search_news(cat["query"])
+        prompt = f"""以下の検索結果をもとに、「{cat['name']}」の最新ニュースを日本語で3件にまとめてください。
 
-{cat_lines}
+【検索結果】
+{raw}
 
-## 出力フォーマット（必ずこの形式で）
-各カテゴリごとに以下の形式で出力：
-
-【絵文字 カテゴリ名】
+## 出力フォーマット（このフォーマットのみ出力）
+{cat['emoji']} {cat['name']}
 ① タイトル
 　概要を1〜2文で。
 
@@ -74,77 +92,72 @@ def build_news_prompt() -> str:
 ③ タイトル
 　概要を1〜2文で。
 
-- 各カテゴリ3件程度
-- 箇条書きで読みやすく
-- 余計な前置き不要、本文のみ出力
+- 検索結果にある具体的な情報のみ使う
+- 余計な前置き・後書き不要
 """
+        sections.append(ask_groq(prompt))
+    return "\n\n".join(sections)
 
 
-def build_gunpla_prompt() -> str:
+def build_gunpla_message() -> str:
     categories = config["gunpla_categories"]
-    cat_lines = "\n".join(
-        f'- {c["emoji"]} {c["name"]}（検索ワード: {c["query"]}）'
-        for c in categories
-    )
-    return f"""今日（{today_str}）時点のガンプラ情報を日本語でまとめてください。
+    sections = []
+    for cat in categories:
+        print(f"  検索中: {cat['name']}")
+        raw = search_news(cat["query"])
+        prompt = f"""以下の検索結果をもとに、「{cat['name']}」情報を日本語でまとめてください。
 
-{cat_lines}
+【検索結果】
+{raw}
 
-## 出力フォーマット（必ずこの形式で）
-
-【🆕 新作情報】
-① 商品名 — 発売日・価格
+## 出力フォーマット（このフォーマットのみ出力）
+{cat['emoji']} {cat['name']}
+① 商品名 — 発売日・価格など
 　一言コメント
 
-【🔄 再販・受注情報】
-① 商品名 — 再販日・予約締切など
-　一言コメント
-
-- 情報がない場合は「現時点で情報なし」と記載
-- 余計な前置き不要、本文のみ出力
+- 検索結果にある具体的な情報のみ使う
+- 情報がない場合は「現時点で情報なし」
+- 余計な前置き・後書き不要
 """
+        sections.append(ask_groq(prompt))
+    return "\n\n".join(sections)
 
 
-def build_gunpla_event_prompt() -> str:
-    """イベント登録用：再販情報をJSON形式で取得するプロンプト"""
-    return f"""今日（{today_str}）以降のガンプラ再販・新作発売予定をJSON形式で返してください。
-検索して実際の情報を取得してください。
+def build_gunpla_events_json() -> str:
+    raw = search_news("ガンプラ 再販 新作 発売日 2025 2026")
+    prompt = f"""以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。
+
+【検索結果】
+{raw}
 
 ## 出力フォーマット（JSONのみ・余計な文字不要）
 [
   {{
     "name": "商品名",
     "date": "YYYY-MM-DD",
-    "description": "再販・新作の概要（1〜2文）"
-  }},
-  ...
+    "description": "概要1〜2文"
+  }}
 ]
 
 - 発売日・再販日が明確なものだけ含める
-- 日付不明なものは除外
-- 最大10件まで
-- JSONのみ返すこと。```json などのマークダウン記法は不要
+- 日付不明は除外
+- 最大10件
+- JSONのみ返すこと
 """
+    return ask_groq(prompt)
 
 
 # ── Discord イベント作成 ──────────────────────────────
 def create_discord_event(name: str, date_str: str, description: str) -> bool:
-    """
-    Discord のサーバーイベントを作成する
-    date_str: "YYYY-MM-DD" 形式
-    """
     try:
         event_date = datetime.date.fromisoformat(date_str)
-        # 過去日付はスキップ
         if event_date < today:
-            print(f"  スキップ（過去日付）: {name} ({date_str})")
+            print(f"  スキップ（過去日付）: {name}")
             return False
 
-        # イベント開始: 当日10:00 JST（UTC+9）
         start_dt = datetime.datetime(
             event_date.year, event_date.month, event_date.day,
-            1, 0, 0,  # UTC 01:00 = JST 10:00
-            tzinfo=datetime.timezone.utc
+            1, 0, 0, tzinfo=datetime.timezone.utc
         )
         end_dt = start_dt + datetime.timedelta(hours=1)
 
@@ -153,8 +166,8 @@ def create_discord_event(name: str, date_str: str, description: str) -> bool:
             "description": description,
             "scheduled_start_time": start_dt.isoformat(),
             "scheduled_end_time": end_dt.isoformat(),
-            "privacy_level": 2,       # GUILD_ONLY
-            "entity_type": 3,         # EXTERNAL
+            "privacy_level": 2,
+            "entity_type": 3,
             "entity_metadata": {"location": "バンダイホビーサイト"},
         }
 
@@ -169,14 +182,11 @@ def create_discord_event(name: str, date_str: str, description: str) -> bool:
         )
 
         if resp.status_code == 200:
-            print(f"  ✅ イベント作成: {name} ({date_str})")
+            print(f"  ✅ イベント作成: {name}")
             return True
-        elif resp.status_code == 400:
-            # 同名イベントが既に存在する場合など
-            print(f"  ⚠️ イベント作成スキップ: {name} ({resp.json()})")
-            return False
         else:
-            resp.raise_for_status()
+            print(f"  ⚠️ スキップ: {name} ({resp.status_code})")
+            return False
 
     except Exception as e:
         print(f"  ❌ イベント作成失敗: {name} / {e}")
@@ -184,15 +194,12 @@ def create_discord_event(name: str, date_str: str, description: str) -> bool:
 
 
 def register_gunpla_events() -> int:
-    """再販・新作情報をGeminiで取得してDiscordイベントに登録、登録件数を返す"""
-    raw = ask_gemini(build_gunpla_event_prompt())
-
-    # JSONパース（```json フェンスが混入した場合も除去）
+    raw = build_gunpla_events_json()
     clean = raw.replace("```json", "").replace("```", "").strip()
     try:
         items = json.loads(clean)
     except json.JSONDecodeError as e:
-        print(f"  ❌ JSONパース失敗: {e}\n  raw: {raw[:200]}")
+        print(f"  ❌ JSONパース失敗: {e}")
         return 0
 
     count = 0
@@ -203,27 +210,23 @@ def register_gunpla_events() -> int:
         if name and date_str:
             if create_discord_event(name, date_str, description):
                 count += 1
-
     return count
 
 
 # ── メイン ────────────────────────────────────────────
 def main():
-    # ── ニュース投稿 ──────────────────────────────────
     print("📰 ニュースまとめ生成中...")
-    news_body = ask_gemini(build_news_prompt())
+    news_body = build_news_message()
     news_message = f"# 📰 朝のニュースまとめ｜{today_str}\n\n{news_body}"
     post_discord(DISCORD_NEWS_URL, news_message)
     print("✅ ニュース投稿完了")
 
-    # ── ガンプラ投稿 ──────────────────────────────────
     print("🔧 ガンプラ情報生成中...")
-    gunpla_body = ask_gemini(build_gunpla_prompt())
+    gunpla_body = build_gunpla_message()
     gunpla_message = f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}"
     post_discord(DISCORD_GUNPLA_URL, gunpla_message)
     print("✅ ガンプラ投稿完了")
 
-    # ── ガンプラ再販イベント登録 ──────────────────────
     print("📅 ガンプラ再販イベント登録中...")
     count = register_gunpla_events()
     print(f"✅ イベント登録完了（{count}件）")
