@@ -1,6 +1,6 @@
 """
 Morning News Bot
-- DuckDuckGo でニュース収集
+- Tavily でニュース収集
 - Groq でまとめ生成
 - Discord Webhook に投稿
 - ガンプラ再販予定を Discord イベントに登録
@@ -12,13 +12,13 @@ import datetime
 import requests
 import yaml
 from groq import Groq
-from duckduckgo_search import DDGS
 
 # ── 設定読み込み ──────────────────────────────────────
 with open("config.yml", "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
 GROQ_API_KEY         = os.environ["GROQ_API_KEY"]
+TAVILY_API_KEY       = os.environ["TAVILY_API_KEY"]
 DISCORD_NEWS_URL     = os.environ["DISCORD_WEBHOOK_NEWS"]
 DISCORD_GUNPLA_URL   = os.environ["DISCORD_WEBHOOK_GUNPLA"]
 DISCORD_BOT_TOKEN    = os.environ["DISCORD_BOT_TOKEN"]
@@ -32,19 +32,27 @@ client = Groq(api_key=GROQ_API_KEY)
 
 
 def search_news(query: str, max_results: int = 5) -> str:
-    """DuckDuckGoでニュースを検索してテキストにまとめる"""
+    """Tavilyでニュースを検索してテキストにまとめる"""
     try:
-        with DDGS() as ddgs:
-            results = list(ddgs.news(query, max_results=max_results, region="wt-wt"))
-        if not results:
-            # newsで取れなかったらtextで再試行
-            with DDGS() as ddgs:
-                results = list(ddgs.text(query, max_results=max_results, region="wt-wt"))
+        resp = requests.post(
+            "https://api.tavily.com/search",
+            json={
+                "api_key": TAVILY_API_KEY,
+                "query": query,
+                "search_depth": "basic",
+                "topic": "news",
+                "max_results": max_results,
+            },
+            timeout=15,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        results = data.get("results", [])
         if not results:
             return "検索結果なし"
         lines = []
         for r in results:
-            lines.append(f"・{r.get('title', '')}（{r.get('source', r.get('href', ''))}）\n  {r.get('body', '')}")
+            lines.append(f"・{r.get('title', '')}（{r.get('url', '')}）\n  {r.get('content', '')[:200]}")
         return "\n".join(lines)
     except Exception as e:
         print(f"検索エラー: {type(e).__name__}: {e}")
