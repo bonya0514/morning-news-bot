@@ -127,13 +127,11 @@ def build_news_message() -> str:
 
 # ── ガンプラ情報生成 ──────────────────────────────────
 def build_gunpla_message() -> str:
-    print("  ガンプラ情報収集中...")
-    raw = search_from_sites(
-        f"ガンプラ 新作 再販 {today.year}年",
-        config["gunpla_sites"],
-        max_results=3,
-        days=30,
-    )
+    cat = config["gunpla_categories"][0]
+    print(f"  ガンプラ情報収集中: {cat['name']}")
+    sites = cat["sites"]
+    query = cat["query"] + f" {today.year}年"
+    raw = search_from_sites(query, sites, max_results=3, days=30)
     prompt = f"""以下の検索結果をもとに、ガンプラの新作・再販情報を日本語でまとめてください。
 今日は{today_str}です。
 
@@ -165,12 +163,10 @@ def build_gunpla_message() -> str:
 
 
 def build_gunpla_events_json() -> str:
-    raw = search_from_sites(
-        f"ガンプラ 再販 新作 発売日 {today.year}年",
-        config["gunpla_sites"],
-        max_results=3,
-        days=30,
-    )
+    cat = config["gunpla_categories"][0]
+    sites = cat["sites"]
+    query = cat["query"] + f" {today.year}年"
+    raw = search_from_sites(query, sites, max_results=3, days=30)
     prompt = f"""以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。
 今日は{today_str}です。
 

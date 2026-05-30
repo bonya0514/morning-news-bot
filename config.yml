@@ -14,7 +14,7 @@ news_categories:
     query: "スマートフォン イヤホン 新製品 発売 レビュー"
     sites:
       - gizmodo.jp
-      - japanese.engadget.com
+      - lifehacker.jp
 
   - name: ゲーム
     emoji: 🎮
@@ -23,9 +23,12 @@ news_categories:
       - www.4gamer.net
       - www.famitsu.com
 
-gunpla_sites:
-  - kaigoshinootakunaburogu.com
-  - harmonizers-jp.com
+gunpla_categories:
+  - name: ガンプラ新作・再販
+    query: "ガンプラ 新作 再販 発売日"
+    sites:
+      - kaigoshinootakunaburogu.com
+      - harmonizers-jp.com
 
 # 投稿時刻（JST）
 schedule:
