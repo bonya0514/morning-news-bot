@@ -4,13 +4,13 @@
 news_categories:
   - name: テクノロジー・AI
     emoji: 🤖
-    query: "テクノロジー AI 最新ニュース"
+    query: "AI 人工知能 テクノロジー 最新ニュース 日本"
   - name: ガジェット
     emoji: 📱
-    query: "スマホ ガジェット 新製品 発表"
+    query: "スマートフォン ガジェット 新製品 発売"
   - name: ゲーム
     emoji: 🎮
-    query: "ゲーム 新作 発売 ニュース"
+    query: "ゲーム 新作 Nintendo Switch PlayStation 発売"
 
 gunpla_categories:
   - name: ガンプラ新作
