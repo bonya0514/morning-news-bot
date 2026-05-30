@@ -1,10 +1,10 @@
 """
 Morning News Bot
-- Tavily でニュース収集（一般ニュース用）
+- Tavily で特定サイトからニュース収集（直近2日以内）
 - Groq でまとめ生成
-- ガンプラ情報はGroqの知識から直接生成
+- ガンプラ情報は専門サイトを巡回
 - Discord Webhook に投稿
-- ガンプラ再販予定を Discord イベントに登録
+- ガンプラ再販予定を Discord イベントに登録（重複チェックあり）
 """
 
 import os
@@ -32,32 +32,37 @@ today_str = today.strftime("%Y年%m月%d日")
 client = Groq(api_key=GROQ_API_KEY)
 
 
-def search_news(query: str, max_results: int = 5) -> str:
-    """Tavilyでニュースを検索してテキストにまとめる"""
-    try:
-        resp = requests.post(
-            "https://api.tavily.com/search",
-            json={
-                "api_key": TAVILY_API_KEY,
-                "query": query,
-                "search_depth": "basic",
-                "topic": "news",
-                "max_results": max_results,
-            },
-            timeout=15,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        results = data.get("results", [])
-        if not results:
-            return "検索結果なし"
-        lines = []
-        for r in results:
-            lines.append(f"・{r.get('title', '')}（{r.get('url', '')}）\n  {r.get('content', '')[:200]}")
-        return "\n".join(lines)
-    except Exception as e:
-        print(f"検索エラー: {type(e).__name__}: {e}")
-        return "検索失敗"
+def search_from_sites(query: str, sites: list, max_results: int = 3, days: int = 2) -> str:
+    """Tavilyで指定サイトからニュースを検索（days日以内）"""
+    all_results = []
+    for site in sites:
+        try:
+            resp = requests.post(
+                "https://api.tavily.com/search",
+                json={
+                    "api_key": TAVILY_API_KEY,
+                    "query": query,
+                    "search_depth": "basic",
+                    "topic": "news",
+                    "max_results": max_results,
+                    "include_domains": [site],
+                    "days": days,
+                },
+                timeout=15,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            results = data.get("results", [])
+            for r in results:
+                all_results.append(
+                    f"・{r.get('title', '')}（{r.get('url', '')}）\n  {r.get('content', '')[:200]}"
+                )
+        except Exception as e:
+            print(f"  検索エラー ({site}): {type(e).__name__}: {e}")
+
+    if not all_results:
+        return "検索結果なし"
+    return "\n".join(all_results)
 
 
 def ask_groq(prompt: str) -> str:
@@ -88,7 +93,12 @@ def build_news_message() -> str:
     sections = []
     for cat in categories:
         print(f"  検索中: {cat['name']}")
-        raw = search_news(cat["query"] + f" {today.year}")
+        raw = search_from_sites(
+            cat["query"],
+            cat["sites"],
+            max_results=2,
+            days=2,
+        )
         prompt = f"""以下の検索結果をもとに、「{cat['name']}」の最新ニュースを日本語で3件にまとめてください。
 
 【検索結果】
@@ -106,8 +116,7 @@ def build_news_message() -> str:
 　概要を日本語で1〜2文。
 
 ## 注意事項
-- タイトルと概要は必ず自然な日本語に翻訳・要約すること
-- 英語のタイトルや固有名詞はそのまま使ってよいが、説明文は日本語にすること
+- タイトルと概要は必ず自然な日本語で書くこと
 - 検索結果にある具体的な情報のみ使う
 - 「〜などの情報も公開されている」のような余計な文は不要
 - 余計な前置き・後書き不要
@@ -116,12 +125,20 @@ def build_news_message() -> str:
     return "\n\n".join(sections)
 
 
-# ── ガンプラ情報生成（Groq知識ベース） ───────────────
+# ── ガンプラ情報生成 ──────────────────────────────────
 def build_gunpla_message() -> str:
-    prompt = f"""あなたはガンプラに詳しいアシスタントです。
+    print("  ガンプラ情報収集中...")
+    raw = search_from_sites(
+        f"ガンプラ 新作 再販 {today.year}年",
+        config["gunpla_sites"],
+        max_results=3,
+        days=30,
+    )
+    prompt = f"""以下の検索結果をもとに、ガンプラの新作・再販情報を日本語でまとめてください。
 今日は{today_str}です。
 
-バンダイのガンプラについて、以下の情報を日本語でまとめてください。
+【検索結果】
+{raw}
 
 ## 出力フォーマット（このフォーマットのみ出力）
 🆕 ガンプラ新作
@@ -140,19 +157,25 @@ def build_gunpla_message() -> str:
 ③ 商品名 — 再販時期
 　一言コメント
 
-- 知っている具体的な商品情報を記載する
-- 不確かな場合は「情報なし」と記載
+- 検索結果にある具体的な情報のみ使う
+- 情報がない場合は「現時点で情報なし」
 - 余計な前置き・後書き不要
 """
     return ask_groq(prompt)
 
 
 def build_gunpla_events_json() -> str:
-    prompt = f"""あなたはガンプラに詳しいアシスタントです。
+    raw = search_from_sites(
+        f"ガンプラ 再販 新作 発売日 {today.year}年",
+        config["gunpla_sites"],
+        max_results=3,
+        days=30,
+    )
+    prompt = f"""以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。
 今日は{today_str}です。
 
-バンダイのガンプラの再販・新作発売予定をJSON形式で返してください。
-知っている情報のみ記載し、不明な場合は空のリストを返してください。
+【検索結果】
+{raw}
 
 ## 出力フォーマット（JSONのみ・余計な文字不要）
 [
@@ -171,8 +194,32 @@ def build_gunpla_events_json() -> str:
     return ask_groq(prompt)
 
 
+# ── Discord 既存イベント取得 ──────────────────────────
+def get_existing_events() -> set:
+    """Discordの既存スケジュールイベント名一覧を取得"""
+    try:
+        resp = requests.get(
+            f"https://discord.com/api/v10/guilds/{DISCORD_GUILD_ID}/scheduled-events",
+            headers={"Authorization": f"Bot {DISCORD_BOT_TOKEN}"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        events = resp.json()
+        return {e.get("name", "") for e in events}
+    except Exception as e:
+        print(f"  ⚠️ 既存イベント取得失敗: {e}")
+        return set()
+
+
 # ── Discord イベント作成 ──────────────────────────────
-def create_discord_event(name: str, date_str: str, description: str) -> bool:
+def create_discord_event(name: str, date_str: str, description: str, existing: set) -> bool:
+    event_name = f"🔧 {name}"
+
+    # 重複チェック
+    if event_name in existing:
+        print(f"  スキップ（重複）: {name}")
+        return False
+
     try:
         event_date = datetime.date.fromisoformat(date_str)
         if event_date < today:
@@ -186,7 +233,7 @@ def create_discord_event(name: str, date_str: str, description: str) -> bool:
         end_dt = start_dt + datetime.timedelta(hours=1)
 
         payload = {
-            "name": f"🔧 {name}",
+            "name": event_name,
             "description": description,
             "scheduled_start_time": start_dt.isoformat(),
             "scheduled_end_time": end_dt.isoformat(),
@@ -218,6 +265,9 @@ def create_discord_event(name: str, date_str: str, description: str) -> bool:
 
 
 def register_gunpla_events() -> int:
+    existing = get_existing_events()
+    print(f"  既存イベント数: {len(existing)}")
+
     raw = build_gunpla_events_json()
     clean = raw.replace("```json", "").replace("```", "").strip()
     try:
@@ -232,7 +282,7 @@ def register_gunpla_events() -> int:
         date_str    = item.get("date", "")
         description = item.get("description", "")
         if name and date_str:
-            if create_discord_event(name, date_str, description):
+            if create_discord_event(name, date_str, description, existing):
                 count += 1
     return count
 

@@ -4,21 +4,28 @@
 news_categories:
   - name: テクノロジー・AI
     emoji: 🤖
-    query: "AI 人工知能 テクノロジー 最新ニュース 日本"
+    query: "AI テクノロジー 最新ニュース"
+    sites:
+      - gigazine.net
+      - itmedia.co.jp
+
   - name: ガジェット
     emoji: 📱
-    query: "スマートフォン ガジェット 新製品 発売"
+    query: "ガジェット スマートフォン 新製品"
+    sites:
+      - gizmodo.jp
+      - japanese.engadget.com
+
   - name: ゲーム
     emoji: 🎮
-    query: "ゲーム 新作 Nintendo Switch PlayStation 発売"
+    query: "ゲーム 新作 発売"
+    sites:
+      - www.4gamer.net
+      - www.famitsu.com
 
-gunpla_categories:
-  - name: ガンプラ新作
-    emoji: 🆕
-    query: "ガンプラ 新作 新商品 発表"
-  - name: ガンプラ再販
-    emoji: 🔄
-    query: "ガンプラ 再販 予約 受注"
+gunpla_sites:
+  - kaigoshinootakunaburogu.com
+  - harmonizers-jp.com
 
 # 投稿時刻（JST）
 schedule:
