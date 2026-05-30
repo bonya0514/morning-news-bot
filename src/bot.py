@@ -35,15 +35,19 @@ def search_news(query: str, max_results: int = 5) -> str:
     """DuckDuckGoでニュースを検索してテキストにまとめる"""
     try:
         with DDGS() as ddgs:
-            results = list(ddgs.news(query, max_results=max_results, region="jp-jp"))
+            results = list(ddgs.news(query, max_results=max_results, region="wt-wt"))
+        if not results:
+            # newsで取れなかったらtextで再試行
+            with DDGS() as ddgs:
+                results = list(ddgs.text(query, max_results=max_results, region="wt-wt"))
         if not results:
             return "検索結果なし"
         lines = []
         for r in results:
-            lines.append(f"・{r.get('title', '')}（{r.get('source', '')}）\n  {r.get('body', '')}")
+            lines.append(f"・{r.get('title', '')}（{r.get('source', r.get('href', ''))}）\n  {r.get('body', '')}")
         return "\n".join(lines)
     except Exception as e:
-        print(f"検索エラー: {e}")
+        print(f"検索エラー: {type(e).__name__}: {e}")
         return "検索失敗"
 
 
@@ -75,7 +79,7 @@ def build_news_message() -> str:
     sections = []
     for cat in categories:
         print(f"  検索中: {cat['name']}")
-        raw = search_news(cat["query"])
+        raw = search_news(cat["query"] + f" {today.year}")
         prompt = f"""以下の検索結果をもとに、「{cat['name']}」の最新ニュースを日本語で3件にまとめてください。
 
 【検索結果】
@@ -104,7 +108,7 @@ def build_gunpla_message() -> str:
     sections = []
     for cat in categories:
         print(f"  検索中: {cat['name']}")
-        raw = search_news(cat["query"])
+        raw = search_news(cat["query"] + f" {today.year}")
         prompt = f"""以下の検索結果をもとに、「{cat['name']}」情報を日本語でまとめてください。
 
 【検索結果】
@@ -124,7 +128,7 @@ def build_gunpla_message() -> str:
 
 
 def build_gunpla_events_json() -> str:
-    raw = search_news("ガンプラ 再販 新作 発売日 2025 2026")
+    raw = search_news(f"ガンプラ 再販 新作 発売日 {today.year}")
     prompt = f"""以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。
 
 【検索結果】
@@ -214,13 +218,15 @@ def register_gunpla_events() -> int:
 
 
 # ── メイン ────────────────────────────────────────────
-def main():
+def run_news():
     print("📰 ニュースまとめ生成中...")
     news_body = build_news_message()
     news_message = f"# 📰 朝のニュースまとめ｜{today_str}\n\n{news_body}"
     post_discord(DISCORD_NEWS_URL, news_message)
     print("✅ ニュース投稿完了")
 
+
+def run_gunpla():
     print("🔧 ガンプラ情報生成中...")
     gunpla_body = build_gunpla_message()
     gunpla_message = f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}"
@@ -233,4 +239,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    mode = os.environ.get("RUN_MODE", "news")
+    if mode == "gunpla":
+        run_gunpla()
+    elif mode == "all":
+        run_news()
+        run_gunpla()
+    else:
+        run_news()

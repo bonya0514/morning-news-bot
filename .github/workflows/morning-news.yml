@@ -4,10 +4,23 @@ on:
   schedule:
     # 毎朝7時（JST）= UTC 22時（前日）
     - cron: "0 22 * * *"
-  workflow_dispatch: # 手動実行ボタンも有効化
+    # 毎週月曜7時（JST）= UTC 月曜22時（前日日曜）
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '実行モード'
+        required: false
+        default: 'news'
+        type: choice
+        options:
+          - news
+          - gunpla
+          - all
 
 jobs:
-  run-bot:
+  daily-news:
+    if: github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'news' || github.event.inputs.mode == 'all') || github.event_name == 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -24,11 +37,40 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run bot
+      - name: Run news bot
         env:
           GROQ_API_KEY:             ${{ secrets.GROQ_API_KEY }}
           DISCORD_WEBHOOK_NEWS:     ${{ secrets.DISCORD_WEBHOOK_NEWS }}
           DISCORD_WEBHOOK_GUNPLA:   ${{ secrets.DISCORD_WEBHOOK_GUNPLA }}
           DISCORD_BOT_TOKEN:        ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID:         ${{ secrets.DISCORD_GUILD_ID }}
+          RUN_MODE: "news"
+        run: python src/bot.py
+
+  weekly-gunpla:
+    if: github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'gunpla' || github.event.inputs.mode == 'all') || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * 0')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run gunpla bot
+        env:
+          GROQ_API_KEY:             ${{ secrets.GROQ_API_KEY }}
+          DISCORD_WEBHOOK_NEWS:     ${{ secrets.DISCORD_WEBHOOK_NEWS }}
+          DISCORD_WEBHOOK_GUNPLA:   ${{ secrets.DISCORD_WEBHOOK_GUNPLA }}
+          DISCORD_BOT_TOKEN:        ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID:         ${{ secrets.DISCORD_GUILD_ID }}
+          RUN_MODE: "gunpla"
         run: python src/bot.py
