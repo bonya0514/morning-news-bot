@@ -4,7 +4,7 @@
 news_categories:
   - name: テクノロジー・AI
     emoji: 🤖
-    query: "AI 人工知能 ChatGPT 新機能 発表"
+    query: "AI 新モデル 発表 リリース 新機能"
     sites:
       - itmedia.co.jp
       - ascii.jp

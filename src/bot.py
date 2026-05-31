@@ -62,6 +62,10 @@ def search_from_sites(query: str, sites: list, max_results: int = 3, days: int =
                     continue
                 if url.rstrip('/') in [f"https://{site}", f"http://{site}"]:
                     continue
+                # サイト系の記事を除外
+                skip_keywords = ["リニューアル", "サイトマップ", "プライバシーポリシー", "について |", "ランキング30"]
+                if any(kw in title for kw in skip_keywords):
+                    continue
                 all_results.append(
                     f"・{title}（{url}）\n  {content[:200]}"
                 )
