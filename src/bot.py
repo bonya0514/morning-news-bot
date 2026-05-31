@@ -102,7 +102,7 @@ def build_news_message() -> str:
     for cat in categories:
         print(f"  検索中: {cat['name']}")
         raw = search_from_sites(
-            cat["query"],
+            cat["query"] + f" {today.year}年{today.month}月",
             cat["sites"],
             max_results=2,
             days=2,
@@ -127,6 +127,8 @@ def build_news_message() -> str:
 - タイトルと概要は必ず自然な日本語で書くこと
 - 検索結果にある具体的な情報のみ使う
 - 「〜などの情報も公開されている」のような余計な文は不要
+- サイトの紹介・説明文は絶対に使わないこと
+- 3件見つからない場合は見つかった件数だけ書く
 - 余計な前置き・後書き不要
 """
         sections.append(ask_groq(prompt))
