@@ -54,8 +54,16 @@ def search_from_sites(query: str, sites: list, max_results: int = 3, days: int =
             data = resp.json()
             results = data.get("results", [])
             for r in results:
+                title   = r.get('title', '')
+                content = r.get('content', '')
+                url     = r.get('url', '')
+                # トップページっぽいものを除外
+                if not title or not content:
+                    continue
+                if url.rstrip('/') in [f"https://{site}", f"http://{site}"]:
+                    continue
                 all_results.append(
-                    f"・{r.get('title', '')}（{r.get('url', '')}）\n  {r.get('content', '')[:200]}"
+                    f"・{title}（{url}）\n  {content[:200]}"
                 )
         except Exception as e:
             print(f"  検索エラー ({site}): {type(e).__name__}: {e}")
