@@ -150,33 +150,22 @@ def build_news_message(posted_data: dict) -> tuple:
             for r in new_results[:6]
         ) or "検索結果なし"
 
-        prompt = f"""以下の検索結果をもとに、「{cat['name']}」の最新ニュースを日本語で3件にまとめてください。
-
-【検索結果】
-{raw}
-
-## 出力フォーマット（このフォーマットのみ出力）
-{cat['emoji']} {cat['name']}
-① 日本語タイトル
-　概要を日本語で1〜2文。
-　🔗 記事のURL
-
-② 日本語タイトル
-　概要を日本語で1〜2文。
-　🔗 記事のURL
-
-③ 日本語タイトル
-　概要を日本語で1〜2文。
-　🔗 記事のURL
-
-## 注意事項
-- タイトルと概要は必ず自然な日本語で書くこと
-- 検索結果にある具体的な情報のみ使う
-- URLは検索結果に含まれているものをそのまま使うこと
-- サイトの紹介・説明文は絶対に使わないこと
-- 3件見つからない場合は見つかった件数だけ書く
-- 余計な前置き・後書き不要
-"""
+        prompt = (
+            f"以下の検索結果をもとに、「{cat['name']}」の最新ニュースを日本語で3件にまとめてください。\n\n"
+            f"【検索結果】\n{raw}\n\n"
+            f"## 出力フォーマット（このフォーマットのみ出力）\n"
+            f"{cat['emoji']} {cat['name']}\n"
+            f"① 日本語タイトル\n　概要を日本語で1〜2文。\n　🔗 記事のURL\n\n"
+            f"② 日本語タイトル\n　概要を日本語で1〜2文。\n　🔗 記事のURL\n\n"
+            f"③ 日本語タイトル\n　概要を日本語で1〜2文。\n　🔗 記事のURL\n\n"
+            f"## 注意事項\n"
+            f"- タイトルと概要は必ず自然な日本語で書くこと\n"
+            f"- 検索結果にある具体的な情報のみ使う\n"
+            f"- URLは検索結果に含まれているものをそのまま使うこと\n"
+            f"- サイトの紹介・説明文は絶対に使わないこと\n"
+            f"- 3件見つからない場合は見つかった件数だけ書く\n"
+            f"- 余計な前置き・後書き不要"
+        )
         sections.append(ask_groq(prompt))
         for r in new_results[:3]:
             posted_data = add_posted_url(r["url"], posted_data)
@@ -188,61 +177,61 @@ def build_news_message(posted_data: dict) -> tuple:
 def build_gunpla_message() -> str:
     cat = config["gunpla_categories"][0]
     print(f"  ガンプラ情報収集中: {cat['name']}")
-    results = search_from_sites(cat["query"] + f" {today.year}年{today.month}月", cat["sites"], max_results=3, days=30)
-今日は{today_str}です。
+    results = search_from_sites(
+        cat["query"] + f" {today.year}年{today.month}月",
+        cat["sites"],
+        max_results=3,
+        days=30,
+    )
+    raw = "\n".join(
+        f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}"
+        for r in results
+    ) or "検索結果なし"
 
-【検索結果】
-{raw}
-
-## 出力フォーマット（このフォーマットのみ出力）
-🆕 ガンプラ新作
-① 商品名 — 発売日・価格
-　一言コメント
-② 商品名 — 発売日・価格
-　一言コメント
-③ 商品名 — 発売日・価格
-　一言コメント
-
-🔄 ガンプラ再販
-① 商品名 — 再販時期
-　一言コメント
-② 商品名 — 再販時期
-　一言コメント
-③ 商品名 — 再販時期
-　一言コメント
-
-- 検索結果にある具体的な情報のみ使う
-- 情報がない場合は「現時点で情報なし」
-- 余計な前置き・後書き不要
-"""
+    prompt = (
+        f"以下の検索結果をもとに、ガンプラの新作・再販情報を日本語でまとめてください。\n"
+        f"今日は{today_str}です。\n\n"
+        f"【検索結果】\n{raw}\n\n"
+        f"## 出力フォーマット（このフォーマットのみ出力）\n"
+        f"🆕 ガンプラ新作\n"
+        f"① 商品名 — 発売日・価格\n　一言コメント\n"
+        f"② 商品名 — 発売日・価格\n　一言コメント\n"
+        f"③ 商品名 — 発売日・価格\n　一言コメント\n\n"
+        f"🔄 ガンプラ再販\n"
+        f"① 商品名 — 再販時期\n　一言コメント\n"
+        f"② 商品名 — 再販時期\n　一言コメント\n"
+        f"③ 商品名 — 再販時期\n　一言コメント\n\n"
+        f"- 検索結果にある具体的な情報のみ使う\n"
+        f"- 情報がない場合は「現時点で情報なし」\n"
+        f"- 余計な前置き・後書き不要"
+    )
     return ask_groq(prompt)
 
 
 def build_gunpla_events_json() -> str:
     cat = config["gunpla_categories"][0]
-    results = search_from_sites(cat["query"] + f" {today.year}年{today.month}月", cat["sites"], max_results=3, days=30)
-    raw = "\n".join(f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}" for r in results) or "検索結果なし"
+    results = search_from_sites(
+        cat["query"] + f" {today.year}年{today.month}月",
+        cat["sites"],
+        max_results=3,
+        days=30,
+    )
+    raw = "\n".join(
+        f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}"
+        for r in results
+    ) or "検索結果なし"
 
-    prompt = f"""以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。
-今日は{today_str}です。
-
-【検索結果】
-{raw}
-
-## 出力フォーマット（JSONのみ・余計な文字不要）
-[
-  {{
-    "name": "商品名",
-    "date": "YYYY-MM-DD",
-    "description": "概要1〜2文"
-  }}
-]
-
-- 発売日・再販日が明確なものだけ含める
-- 日付不明は除外
-- 最大10件
-- JSONのみ返すこと
-"""
+    prompt = (
+        f"以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。\n"
+        f"今日は{today_str}です。\n\n"
+        f"【検索結果】\n{raw}\n\n"
+        f"## 出力フォーマット（JSONのみ・余計な文字不要）\n"
+        f'[\n  {{\n    "name": "商品名",\n    "date": "YYYY-MM-DD",\n    "description": "概要1〜2文"\n  }}\n]\n\n'
+        f"- 発売日・再販日が明確なものだけ含める\n"
+        f"- 日付不明は除外\n"
+        f"- 最大10件\n"
+        f"- JSONのみ返すこと"
+    )
     return ask_groq(prompt)
 
 
@@ -273,7 +262,10 @@ def create_discord_event(name: str, date_str: str, description: str, existing: s
             print(f"  スキップ（過去日付）: {name}")
             return False
 
-        start_dt = datetime.datetime(event_date.year, event_date.month, event_date.day, 1, 0, 0, tzinfo=datetime.timezone.utc)
+        start_dt = datetime.datetime(
+            event_date.year, event_date.month, event_date.day,
+            1, 0, 0, tzinfo=datetime.timezone.utc
+        )
         end_dt = start_dt + datetime.timedelta(hours=1)
 
         resp = requests.post(
