@@ -1,6 +1,3 @@
-# ニュースカテゴリ設定
-# ここを編集するだけでまとめる内容を変更できる
-
 news_categories:
   - name: テクノロジー・AI
     emoji: 🤖
@@ -25,12 +22,11 @@ news_categories:
 
 gunpla_categories:
   - name: ガンプラ新作・再販
-    query: "ガンプラ 新作 再販 発売日"
+    query: "ガンプラ 再販 カレンダー"
     sites:
       - kaigoshinootakunaburogu.com
       - harmonizers-jp.com
 
-# 投稿時刻（JST）
 schedule:
   hour: 7
   minute: 0

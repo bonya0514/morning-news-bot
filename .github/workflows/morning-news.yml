@@ -2,10 +2,8 @@ name: Morning News Bot
 
 on:
   schedule:
-    # 毎朝7時（JST）= UTC 22時（前日）
     - cron: "0 22 * * *"
-    # 毎週月曜7時（JST）= UTC 月曜22時（前日日曜）
-    - cron: "0 22 * * 0"
+    - cron: "0 22 1,15 * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -23,6 +21,8 @@ jobs:
     if: github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'news' || github.event.inputs.mode == 'all') || github.event_name == 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -49,9 +49,11 @@ jobs:
         run: python src/bot.py
 
   weekly-gunpla:
-    if: github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'gunpla' || github.event.inputs.mode == 'all') || (github.event_name == 'schedule' && github.event.schedule == '0 22 * * 0')
+    if: github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'gunpla' || github.event.inputs.mode == 'all') || (github.event_name == 'schedule' && github.event.schedule == '0 22 1,15 * *')
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout

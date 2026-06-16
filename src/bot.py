@@ -1,14 +1,15 @@
 """
 Morning News Bot
-- Tavily で特定サイトからニュース収集（直近2日以内）
+- Tavily で特定サイトからニュース収集
 - Groq でまとめ生成
-- ガンプラ情報は専門サイトを巡回
+- posted_urls.json で重複チェック
 - Discord Webhook に投稿
 - ガンプラ再販予定を Discord イベントに登録（重複チェックあり）
 """
 
 import os
 import json
+import subprocess
 import datetime
 import requests
 import yaml
@@ -25,15 +26,54 @@ DISCORD_GUNPLA_URL   = os.environ["DISCORD_WEBHOOK_GUNPLA"]
 DISCORD_BOT_TOKEN    = os.environ["DISCORD_BOT_TOKEN"]
 DISCORD_GUILD_ID     = os.environ["DISCORD_GUILD_ID"]
 
-today     = datetime.date.today()
+# JST で今日の日付を取得
+JST = datetime.timezone(datetime.timedelta(hours=9))
+today     = datetime.datetime.now(JST).date()
 today_str = today.strftime("%Y年%m月%d日")
 
 # ── Groq クライアント ─────────────────────────────────
 client = Groq(api_key=GROQ_API_KEY)
 
+# ── posted_urls.json 管理 ─────────────────────────────
+POSTED_URLS_FILE = "posted_urls.json"
+URL_EXPIRE_DAYS  = 7
 
-def search_from_sites(query: str, sites: list, max_results: int = 3, days: int = 2) -> str:
-    """Tavilyで指定サイトからニュースを検索（days日以内）"""
+def load_posted_urls() -> dict:
+    if os.path.exists(POSTED_URLS_FILE):
+        with open(POSTED_URLS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"urls": []}
+
+def save_posted_urls(data: dict) -> None:
+    with open(POSTED_URLS_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    try:
+        subprocess.run(["git", "config", "user.email", "bot@morning-news-bot"], check=True)
+        subprocess.run(["git", "config", "user.name", "Morning News Bot"], check=True)
+        subprocess.run(["git", "add", POSTED_URLS_FILE], check=True)
+        subprocess.run(["git", "commit", "-m", f"Update posted_urls [{today_str}]"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("✅ posted_urls.json をコミット")
+    except subprocess.CalledProcessError as e:
+        print(f"  ⚠️ コミット失敗: {e}")
+
+def cleanup_old_urls(data: dict) -> dict:
+    cutoff = today - datetime.timedelta(days=URL_EXPIRE_DAYS)
+    data["urls"] = [
+        u for u in data["urls"]
+        if datetime.date.fromisoformat(u["posted_at"]) > cutoff
+    ]
+    return data
+
+def is_posted(url: str, data: dict) -> bool:
+    return any(u["url"] == url for u in data["urls"])
+
+def add_posted_url(url: str, data: dict) -> dict:
+    data["urls"].append({"url": url, "posted_at": today.isoformat()})
+    return data
+
+
+def search_from_sites(query: str, sites: list, max_results: int = 5, days: int = 7) -> list:
     all_results = []
     for site in sites:
         try:
@@ -51,38 +91,27 @@ def search_from_sites(query: str, sites: list, max_results: int = 3, days: int =
                 timeout=15,
             )
             resp.raise_for_status()
-            data = resp.json()
-            results = data.get("results", [])
-            for r in results:
+            for r in resp.json().get("results", []):
                 title   = r.get('title', '')
                 content = r.get('content', '')
                 url     = r.get('url', '')
-                # トップページっぽいものを除外
                 if not title or not content:
                     continue
                 if url.rstrip('/') in [f"https://{site}", f"http://{site}"]:
                     continue
-                # サイト系の記事を除外
                 skip_keywords = ["リニューアル", "サイトマップ", "プライバシーポリシー", "について |", "ランキング30", "の記事一覧", "ニュースリリース", "archive"]
                 if any(kw in title for kw in skip_keywords):
                     continue
-                # アーカイブ・ランキング系URLを除外
                 skip_url_keywords = ["/archive/", "/newsrelease/", "/ranking/"]
                 if any(kw in url for kw in skip_url_keywords):
                     continue
-                all_results.append(
-                    f"・{title}（{url}）\n  {content[:200]}"
-                )
+                all_results.append({"title": title, "url": url, "content": content})
         except Exception as e:
             print(f"  検索エラー ({site}): {type(e).__name__}: {e}")
-
-    if not all_results:
-        return "検索結果なし"
-    return "\n".join(all_results)
+    return all_results
 
 
 def ask_groq(prompt: str) -> str:
-    """Groq にプロンプトを投げてテキストを返す"""
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[{"role": "user", "content": prompt}],
@@ -92,29 +121,35 @@ def ask_groq(prompt: str) -> str:
 
 
 def post_discord(webhook_url: str, content: str) -> None:
-    """Discord Webhook に投稿（2000文字制限を考慮して分割）"""
     chunks = [content[i:i+1900] for i in range(0, len(content), 1900)]
     for chunk in chunks:
-        resp = requests.post(
-            webhook_url,
-            json={"content": chunk},
-            timeout=10,
-        )
+        resp = requests.post(webhook_url, json={"content": chunk}, timeout=10)
         resp.raise_for_status()
 
 
 # ── ニュースまとめ生成 ────────────────────────────────
-def build_news_message() -> str:
+def build_news_message(posted_data: dict) -> tuple:
     categories = config["news_categories"]
     sections = []
+
     for cat in categories:
         print(f"  検索中: {cat['name']}")
-        raw = search_from_sites(
+        results = search_from_sites(
             cat["query"] + f" {today.year}年{today.month}月",
             cat["sites"],
-            max_results=2,
-            days=2,
+            max_results=5,
+            days=7,
         )
+        new_results = [r for r in results if not is_posted(r["url"], posted_data)]
+        if not new_results:
+            print(f"  {cat['name']}: 新規記事なし、既存記事から選択")
+            new_results = results
+
+        raw = "\n".join(
+            f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}"
+            for r in new_results[:6]
+        ) or "検索結果なし"
+
         prompt = f"""以下の検索結果をもとに、「{cat['name']}」の最新ニュースを日本語で3件にまとめてください。
 
 【検索結果】
@@ -138,23 +173,22 @@ def build_news_message() -> str:
 - タイトルと概要は必ず自然な日本語で書くこと
 - 検索結果にある具体的な情報のみ使う
 - URLは検索結果に含まれているものをそのまま使うこと
-- 「〜などの情報も公開されている」のような余計な文は不要
 - サイトの紹介・説明文は絶対に使わないこと
 - 3件見つからない場合は見つかった件数だけ書く
 - 余計な前置き・後書き不要
 """
         sections.append(ask_groq(prompt))
-    return "\n\n".join(sections)
+        for r in new_results[:3]:
+            posted_data = add_posted_url(r["url"], posted_data)
+
+    return "\n\n".join(sections), posted_data
 
 
 # ── ガンプラ情報生成 ──────────────────────────────────
 def build_gunpla_message() -> str:
     cat = config["gunpla_categories"][0]
     print(f"  ガンプラ情報収集中: {cat['name']}")
-    sites = cat["sites"]
-    query = cat["query"] + f" {today.year}年"
-    raw = search_from_sites(query, sites, max_results=3, days=30)
-    prompt = f"""以下の検索結果をもとに、ガンプラの新作・再販情報を日本語でまとめてください。
+    results = search_from_sites(cat["query"] + f" {today.year}年{today.month}月", cat["sites"], max_results=3, days=30)
 今日は{today_str}です。
 
 【検索結果】
@@ -186,9 +220,9 @@ def build_gunpla_message() -> str:
 
 def build_gunpla_events_json() -> str:
     cat = config["gunpla_categories"][0]
-    sites = cat["sites"]
-    query = cat["query"] + f" {today.year}年"
-    raw = search_from_sites(query, sites, max_results=3, days=30)
+    results = search_from_sites(cat["query"] + f" {today.year}年{today.month}月", cat["sites"], max_results=3, days=30)
+    raw = "\n".join(f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}" for r in results) or "検索結果なし"
+
     prompt = f"""以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。
 今日は{today_str}です。
 
@@ -214,7 +248,6 @@ def build_gunpla_events_json() -> str:
 
 # ── Discord 既存イベント取得 ──────────────────────────
 def get_existing_events() -> set:
-    """Discordの既存スケジュールイベント名一覧を取得"""
     try:
         resp = requests.get(
             f"https://discord.com/api/v10/guilds/{DISCORD_GUILD_ID}/scheduled-events",
@@ -222,8 +255,7 @@ def get_existing_events() -> set:
             timeout=10,
         )
         resp.raise_for_status()
-        events = resp.json()
-        return {e.get("name", "") for e in events}
+        return {e.get("name", "") for e in resp.json()}
     except Exception as e:
         print(f"  ⚠️ 既存イベント取得失敗: {e}")
         return set()
@@ -232,51 +264,38 @@ def get_existing_events() -> set:
 # ── Discord イベント作成 ──────────────────────────────
 def create_discord_event(name: str, date_str: str, description: str, existing: set) -> bool:
     event_name = f"🔧 {name}"
-
-    # 重複チェック
     if event_name in existing:
         print(f"  スキップ（重複）: {name}")
         return False
-
     try:
         event_date = datetime.date.fromisoformat(date_str)
         if event_date < today:
             print(f"  スキップ（過去日付）: {name}")
             return False
 
-        start_dt = datetime.datetime(
-            event_date.year, event_date.month, event_date.day,
-            1, 0, 0, tzinfo=datetime.timezone.utc
-        )
+        start_dt = datetime.datetime(event_date.year, event_date.month, event_date.day, 1, 0, 0, tzinfo=datetime.timezone.utc)
         end_dt = start_dt + datetime.timedelta(hours=1)
-
-        payload = {
-            "name": event_name,
-            "description": description,
-            "scheduled_start_time": start_dt.isoformat(),
-            "scheduled_end_time": end_dt.isoformat(),
-            "privacy_level": 2,
-            "entity_type": 3,
-            "entity_metadata": {"location": "バンダイホビーサイト"},
-        }
 
         resp = requests.post(
             f"https://discord.com/api/v10/guilds/{DISCORD_GUILD_ID}/scheduled-events",
-            headers={
-                "Authorization": f"Bot {DISCORD_BOT_TOKEN}",
-                "Content-Type": "application/json",
+            headers={"Authorization": f"Bot {DISCORD_BOT_TOKEN}", "Content-Type": "application/json"},
+            json={
+                "name": event_name,
+                "description": description,
+                "scheduled_start_time": start_dt.isoformat(),
+                "scheduled_end_time": end_dt.isoformat(),
+                "privacy_level": 2,
+                "entity_type": 3,
+                "entity_metadata": {"location": "バンダイホビーサイト"},
             },
-            json=payload,
             timeout=10,
         )
-
         if resp.status_code == 200:
             print(f"  ✅ イベント作成: {name}")
             return True
         else:
             print(f"  ⚠️ スキップ: {name} ({resp.status_code})")
             return False
-
     except Exception as e:
         print(f"  ❌ イベント作成失敗: {name} / {e}")
         return False
@@ -285,7 +304,6 @@ def create_discord_event(name: str, date_str: str, description: str, existing: s
 def register_gunpla_events() -> int:
     existing = get_existing_events()
     print(f"  既存イベント数: {len(existing)}")
-
     raw = build_gunpla_events_json()
     clean = raw.replace("```json", "").replace("```", "").strip()
     try:
@@ -293,11 +311,10 @@ def register_gunpla_events() -> int:
     except json.JSONDecodeError as e:
         print(f"  ❌ JSONパース失敗: {e}")
         return 0
-
     count = 0
     for item in items:
-        name        = item.get("name", "")
-        date_str    = item.get("date", "")
+        name = item.get("name", "")
+        date_str = item.get("date", "")
         description = item.get("description", "")
         if name and date_str:
             if create_discord_event(name, date_str, description, existing):
@@ -308,19 +325,20 @@ def register_gunpla_events() -> int:
 # ── メイン ────────────────────────────────────────────
 def run_news():
     print("📰 ニュースまとめ生成中...")
-    news_body = build_news_message()
+    posted_data = load_posted_urls()
+    posted_data = cleanup_old_urls(posted_data)
+    news_body, posted_data = build_news_message(posted_data)
     news_message = f"# 📰 朝のニュースまとめ｜{today_str}\n\n{news_body}"
     post_discord(DISCORD_NEWS_URL, news_message)
     print("✅ ニュース投稿完了")
+    save_posted_urls(posted_data)
 
 
 def run_gunpla():
     print("🔧 ガンプラ情報生成中...")
     gunpla_body = build_gunpla_message()
-    gunpla_message = f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}"
-    post_discord(DISCORD_GUNPLA_URL, gunpla_message)
+    post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
     print("✅ ガンプラ投稿完了")
-
     print("📅 ガンプラ再販イベント登録中...")
     count = register_gunpla_events()
     print(f"✅ イベント登録完了（{count}件）")
