@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/keywords/new_function.html",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2606/09/news103.html",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2606/16/news053.html",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.gizmodo.jp/",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0612-1/",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/viaim-recdot-notekit/",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.4gamer.net/games/990/G099070/20260313055/",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.4gamer.net/games/333/G033338/20260525012/",
-      "posted_at": "2026-06-16"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999903/20260609072/",
-      "posted_at": "2026-06-16"
-    },
-    {
       "url": "https://nlab.itmedia.co.jp/cont/articles/3878983/2/",
       "posted_at": "2026-06-18"
     },
@@ -203,6 +167,38 @@
     {
       "url": "https://www.famitsu.com/article/202606/77797",
       "posted_at": "2026-06-22"
+    },
+    {
+      "url": "https://corp.itmedia.co.jp/pr/releases",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2601/07/news056.html",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://www.gizmodo.jp/",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/science-fair-space-solar-power-zbi/",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0605-3/",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999903/20260609072/",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://www.4gamer.net/games/990/G099070/20260313055/",
+      "posted_at": "2026-06-23"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/78949",
+      "posted_at": "2026-06-23"
     }
   ]
 }
