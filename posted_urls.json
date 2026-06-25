@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://nlab.itmedia.co.jp/cont/articles/3874616/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://nlab.itmedia.co.jp/cont/articles/3866948/2/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://nlab.itmedia.co.jp/cont/articles/3883115/2/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/state-of-play-20260602/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/fold-iphone-rumor/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/tenkey-orcaecho-t1he/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101542/20260610016/",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/77441",
-      "posted_at": "2026-06-19"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/78529",
-      "posted_at": "2026-06-19"
-    },
-    {
       "url": "https://www.itmedia.co.jp/mobile/spv/2606/16/news053.html",
       "posted_at": "2026-06-20"
     },
@@ -231,6 +195,38 @@
     {
       "url": "https://www.4gamer.net/games/040/G004099/20260614003/",
       "posted_at": "2026-06-25"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/subtop/features/aipc2/index.html",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/409/4409839/",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2606-amazon-funlogysoundbar/",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/polaroid-go-gen3/",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/notta_memo_typec/",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/79352",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/79421",
+      "posted_at": "2026-06-26"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/79458",
+      "posted_at": "2026-06-26"
     }
   ]
 }
