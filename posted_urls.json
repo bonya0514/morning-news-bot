@@ -1,34 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/19/news063.html",
-      "posted_at": "2026-06-21"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/402/4402515/",
-      "posted_at": "2026-06-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/keychron-orca-echo-gizmart/",
-      "posted_at": "2026-06-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/audio-technica-ath-cks50tw2-summer/",
-      "posted_at": "2026-06-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/opencode_google_gemma_4-krq/",
-      "posted_at": "2026-06-21"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/78495",
-      "posted_at": "2026-06-21"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/76230",
-      "posted_at": "2026-06-21"
-    },
-    {
       "url": "https://nlab.itmedia.co.jp/",
       "posted_at": "2026-06-22"
     },
@@ -223,6 +195,38 @@
     {
       "url": "https://www.famitsu.com/article/202606/77961",
       "posted_at": "2026-06-27"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3895252/",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/402/4402515/",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/hearing-assist-earphone-er-100/",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/maingear-mg-1-2026-review-a-clean-serene-gaming-machine-for-a-premium-price/",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/surface-book-2-review-1/",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20260608100",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.4gamer.net/words/019/W01916",
+      "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20260614002",
+      "posted_at": "2026-06-28"
     }
   ]
 }
