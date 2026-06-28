@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://nlab.itmedia.co.jp/",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/series/34305/",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/409/4409463/",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/94521416-e3f0-41e2-a2ea-a752fe801600/",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/ipad-air-5-photo-review/",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/roborock-saros-20-saros-20-sonic/",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/76707",
-      "posted_at": "2026-06-22"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/77797",
-      "posted_at": "2026-06-22"
-    },
-    {
       "url": "https://corp.itmedia.co.jp/pr/releases",
       "posted_at": "2026-06-23"
     },
@@ -227,6 +195,42 @@
     {
       "url": "https://www.4gamer.net/games/954/G095479/20260614002",
       "posted_at": "2026-06-28"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news047.html",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3895452/",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/409/4409619/",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/alienware-16-alien-51-2026-review-oled-screen-fixes-previous-gaming-laptop-problem/",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2605-lht-meta-smart-glasses-first-look/",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2606-costorypo-voler-review1-1476469950/",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/78561",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/77607",
+      "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/79709",
+      "posted_at": "2026-06-29"
     }
   ]
 }
