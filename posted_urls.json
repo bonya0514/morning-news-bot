@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://corp.itmedia.co.jp/pr/releases",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2601/07/news056.html",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/science-fair-space-solar-power-zbi/",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0605-3/",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999903/20260609072/",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/990/G099070/20260313055/",
-      "posted_at": "2026-06-23"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/78949",
-      "posted_at": "2026-06-23"
-    },
-    {
       "url": "https://www.itmedia.co.jp/enterprise/articles/2606/23/news059.html",
       "posted_at": "2026-06-24"
     },
@@ -231,6 +199,42 @@
     {
       "url": "https://www.famitsu.com/article/202606/79709",
       "posted_at": "2026-06-29"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3896072/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/410/4410211/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/409/4409463/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/anthropic_releases_claude_fable_5_and_mythos_5/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/amazon-shokz-opendotsair-2606/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101542/20260610016/",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/79710",
+      "posted_at": "2026-06-30"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202606/79708",
+      "posted_at": "2026-06-30"
     }
   ]
 }
