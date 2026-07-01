@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/articles/2606/24/news061.html",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/articles/2602/03/news107.html",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/enterprise/series/42905/",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0612-1/",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sharing-gemini-chats-via-google-drive/",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2606-shokzjapan-opendots-2-opendots-air/",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.4gamer.net/games/333/G033338/20260525012/",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101567/20260610015/",
-      "posted_at": "2026-06-25"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260614003/",
-      "posted_at": "2026-06-25"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/subtop/features/aipc2/index.html",
       "posted_at": "2026-06-26"
     },
@@ -239,6 +203,42 @@
     {
       "url": "https://www.4gamer.net/games/981/G098132/20260205069/",
       "posted_at": "2026-07-01"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/409/4409619",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://weekly.ascii.jp/elem/000/004/403/4403454",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samsung-galaxy-buds4-pro-specs-price",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-short-bose-quietcomfortultraearbuds",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm6-yes-these-wireless-earbuds-sound-that-good",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/981/G098127/20260205061/",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/990/G099002/20260605036/index_2.html",
+      "posted_at": "2026-07-02"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule/all-platforms/202607",
+      "posted_at": "2026-07-02"
     }
   ]
 }
