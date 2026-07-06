@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://nlab.itmedia.co.jp/research/articles/3896072/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/410/4410211/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/409/4409463/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/anthropic_releases_claude_fable_5_and_mythos_5/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/amazon-shokz-opendotsair-2606/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101542/20260610016/",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/79710",
-      "posted_at": "2026-06-30"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/79708",
-      "posted_at": "2026-06-30"
-    },
-    {
       "url": "https://www.itmedia.co.jp/business/articles/2605/20/news107.html",
       "posted_at": "2026-07-01"
     },
@@ -287,6 +251,38 @@
     {
       "url": "https://www.famitsu.com/schedule/ps5",
       "posted_at": "2026-07-06"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/153152/",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/398/4398254/galleryimg.html?num=9",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/recommended-phones-with-headphone-jack",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/nothing-phone-2-launched-on-july",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/nothing-headphone-a-review",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999903/20260609072",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101375/20260702018",
+      "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101567/20260610015",
+      "posted_at": "2026-07-07"
     }
   ]
 }
