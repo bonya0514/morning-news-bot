@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/business/articles/2605/20/news107.html",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/makoto/kw/enterprise_application.html",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2604/27/news034.html",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=79997",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/open-ear-audio-is-having-a-huge-moment-right-now",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm3-review",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/697/G069752/20260622043/",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
-      "posted_at": "2026-07-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/981/G098132/20260205069/",
-      "posted_at": "2026-07-01"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-07-02"
     },
@@ -283,6 +247,42 @@
     {
       "url": "https://www.4gamer.net/games/015/G101567/20260610015",
       "posted_at": "2026-07-07"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/06/news089.html",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/05/news015_3.html",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/business/articles/2605/20/news107.html",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/open-ear-audio-is-having-a-huge-moment-right-now",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm3-review",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/soundcore-space-2-review",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.4gamer.net/games/635/G063504/20260630039/",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.4gamer.net/games/981/G098132/20260205069/",
+      "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.4gamer.net/games/738/G073812/20250918075/",
+      "posted_at": "2026-07-08"
     }
   ]
 }
