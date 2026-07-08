@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/409/4409619",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://weekly.ascii.jp/elem/000/004/403/4403454",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/samsung-galaxy-buds4-pro-specs-price",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-short-bose-quietcomfortultraearbuds",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm6-yes-these-wireless-earbuds-sound-that-good",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/981/G098127/20260205061/",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/990/G099002/20260605036/index_2.html",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/all-platforms/202607",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/368/4368222",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/409/4409463",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://weekly.ascii.jp/elem/000/004/368/4368222",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2606-amazon-xiaomi-smartband10/",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2407-nothing-interview/",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2604-nothing-event/",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/switch",
-      "posted_at": "2026-07-02"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/ps5/202607",
-      "posted_at": "2026-07-02"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news044.html",
       "posted_at": "2026-07-03"
     },
@@ -283,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/738/G073812/20250918075/",
       "posted_at": "2026-07-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/03/news028.html",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2511/20/news032.html",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/403/4403454",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=79997",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm6-yes-these-wireless-earbuds-sound-that-good",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2606-your-pixel-can-do-7-new-things-now-that-it-couldnt-do-last-month/",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/983/G098329/20260213032",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/990/G099002/20260605036/index_2.html",
+      "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101399/20260606050",
+      "posted_at": "2026-07-09"
     }
   ]
 }
