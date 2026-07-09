@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news044.html",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://nlab.itmedia.co.jp/research/articles/3901136/",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/415/4415230/",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/spring_season_earphone",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/wf-sp800n-review",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2509-samsung-announces-galaxy-s25-fe",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999903/20260205063/",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202606/79458",
-      "posted_at": "2026-07-03"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/79185",
-      "posted_at": "2026-07-03"
-    },
-    {
       "url": "https://www.itmedia.co.jp/enterprise/articles/2606/05/news043.html",
       "posted_at": "2026-07-04"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/013/G101399/20260606050",
       "posted_at": "2026-07-09"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3910808/",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news//",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.gizmodo.jp/",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/kikippa-earphone-02/",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/plaud-note-youtube/",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.4gamer.net/tags/TS/TS027",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999905/20260608100",
+      "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://www.4gamer.net/games/012/G101200/20260603022",
+      "posted_at": "2026-07-10"
     }
   ]
 }
