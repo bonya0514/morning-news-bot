@@ -208,17 +208,40 @@ def find_calendar_urls() -> list:
 def clean_text(text: str) -> str:
     """Markdownのリンク・画像・URLエンコードのゴミを除去してテキストを軽量化"""
     import re
+    # 画像記法を削除
     text = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', text)
+    # リンク記法はテキスト部分だけ残す
     text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
+    # 生URLを削除
     text = re.sub(r'https?://\S+', '', text)
+    # URLエンコード文字列（%XX の連続）を削除
     text = re.sub(r'(?:%[0-9A-Fa-f]{2}){3,}', '', text)
+    # 連続する空白・改行を圧縮
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
 
 
+def extract_toc(text: str) -> str:
+    """目次（日付ごとの商品リスト）部分だけを抽出。なければ空文字"""
+    lines = text.split("\n")
+    toc_lines = []
+    in_toc = False
+    for line in lines:
+        stripped = line.strip()
+        if not in_toc:
+            if stripped == "目次" or stripped.startswith("目次"):
+                in_toc = True
+            continue
+        # 目次終了判定: 本文見出し（## ）が来たら終わり
+        if stripped.startswith("## "):
+            break
+        toc_lines.append(line)
+    return "\n".join(toc_lines).strip()
+
+
 def extract_pages(urls: list) -> str:
-    """Tavily extract APIでページ本文を取得"""
+    """Tavily extract APIでページ本文を取得（目次があれば目次を優先）"""
     if not urls:
         return ""
     try:
@@ -233,8 +256,15 @@ def extract_pages(urls: list) -> str:
         resp.raise_for_status()
         chunks = []
         for r in resp.json().get("results", []):
-            content = clean_text(r.get("raw_content", ""))[:4000]
-            print(f"  取得: {r.get('url', '')} (クリーニング後 {len(content)}文字)")
+            cleaned = clean_text(r.get("raw_content", ""))
+            toc = extract_toc(cleaned)
+            if toc:
+                content = toc[:6000]
+                kind = "目次"
+            else:
+                content = cleaned[:3000]
+                kind = "本文"
+            print(f"  取得: {r.get('url', '')} ({kind} {len(content)}文字)")
             if content:
                 chunks.append(f"【{r.get('url', '')}】\n{content}")
         combined = "\n\n".join(chunks)[:12000]
@@ -268,20 +298,25 @@ def get_gunpla_raw() -> str:
 
 def build_gunpla_message(raw: str) -> str:
     prompt = (
-        f"以下のページ内容をもとに、ガンプラの新作・再販情報を日本語でまとめてください。\n"
-        f"今日は{today_str}です。今月・来月の情報を優先してください。\n\n"
+        f"以下のページ内容をもとに、ガンプラの新作・再販予定を日本語でまとめてください。\n"
+        f"今日は{today_str}です。今日以降の予定だけを対象にしてください。\n\n"
         f"【ページ内容】\n{raw}\n\n"
-        f"## 出力フォーマット（このフォーマットのみ出力）\n"
-        f"🆕 ガンプラ新作\n"
-        f"① 商品名 — 発売日・価格\n　一言コメント\n"
-        f"② 商品名 — 発売日・価格\n　一言コメント\n"
-        f"③ 商品名 — 発売日・価格\n　一言コメント\n\n"
-        f"🔄 ガンプラ再販\n"
-        f"① 商品名 — 再販時期\n　一言コメント\n"
-        f"② 商品名 — 再販時期\n　一言コメント\n"
-        f"③ 商品名 — 再販時期\n　一言コメント\n\n"
-        f"- ページ内容にある具体的な情報のみ使う\n"
-        f"- 過去の日付（今日より前）の情報は使わないこと\n"
+        f"## 出力フォーマット（このフォーマットのみ出力・日付ごとにグループ化）\n"
+        f"🆕 新作発売予定\n"
+        f"📅 7月X日（曜日）\n"
+        f"・商品名\n"
+        f"・商品名\n\n"
+        f"🔄 再販予定\n"
+        f"📅 7月X日（曜日）\n"
+        f"・商品名\n"
+        f"・商品名\n\n"
+        f"📅 7月Y日（曜日）\n"
+        f"・商品名\n\n"
+        f"## 注意事項\n"
+        f"- ページ内容にある日付と商品名をすべて使い、省略しないこと\n"
+        f"- 日付は昇順に並べること\n"
+        f"- 今日より前の日付は除外\n"
+        f"- ガンプラ・30MM・30MS等のロボット系プラモを優先し、ポケモン・ケロロ等は省いてよい\n"
         f"- 情報がない場合は「現時点で情報なし」\n"
         f"- 余計な前置き・後書き不要"
     )
