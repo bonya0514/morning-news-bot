@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2606/05/news043.html",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2607/03/news028.html",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2607/03/news028_2.html",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/hp-omnibook-ultra-review-perfect-if-not-for-the-little-things/",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sony-wh-1000xm6/",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/marshall-milton-anc-stockholm-report/",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.4gamer.net/ps",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.4gamer.net/switch",
-      "posted_at": "2026-07-04"
-    },
-    {
-      "url": "https://www.4gamer.net/games/918/G091816/20260213002",
-      "posted_at": "2026-07-04"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2508/29/news028.html",
       "posted_at": "2026-07-05"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/012/G101200/20260603022",
       "posted_at": "2026-07-10"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3912468/",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2607/09/news107.html",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/spv/2607/09/news107.html",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/kikippa-earphone-02",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=64002",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samsung-galaxy-buds-review-us",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.4gamer.net/games/997/G099725/20260409004",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule",
+      "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule/all-platforms?genre=rpg&theme=17",
+      "posted_at": "2026-07-11"
     }
   ]
 }
