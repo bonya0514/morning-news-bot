@@ -3,6 +3,7 @@ Morning News Bot
 - Tavily で特定サイトからニュース収集
 - Groq でまとめ生成
 - posted_urls.json で重複チェック
+- ガンプラ情報は再販カレンダーページを直接取得
 - Discord Webhook に投稿
 - ガンプラ再販予定を Discord イベントに登録（重複チェックあり）
 """
@@ -174,24 +175,87 @@ def build_news_message(posted_data: dict) -> tuple:
 
 
 # ── ガンプラ情報生成 ──────────────────────────────────
-def build_gunpla_message() -> str:
+def find_calendar_urls() -> list:
+    """再販カレンダーページのURLをTavily検索で特定"""
     cat = config["gunpla_categories"][0]
-    print(f"  ガンプラ情報収集中: {cat['name']}")
+    query = f"ガンプラ 再販 カレンダー {today.year}年{today.month}月"
+    urls = []
+    for site in cat["sites"]:
+        try:
+            resp = requests.post(
+                "https://api.tavily.com/search",
+                json={
+                    "api_key": TAVILY_API_KEY,
+                    "query": query,
+                    "search_depth": "basic",
+                    "max_results": 3,
+                    "include_domains": [site],
+                },
+                timeout=15,
+            )
+            resp.raise_for_status()
+            for r in resp.json().get("results", []):
+                url = r.get("url", "")
+                title = r.get("title", "")
+                # 今年のカレンダー・再販情報ページっぽいものだけ
+                if url and (str(today.year) in url or str(today.year) in title):
+                    urls.append(url)
+        except Exception as e:
+            print(f"  カレンダーURL検索エラー ({site}): {type(e).__name__}: {e}")
+    return urls[:4]
+
+
+def extract_pages(urls: list) -> str:
+    """Tavily extract APIでページ本文を取得"""
+    if not urls:
+        return ""
+    try:
+        resp = requests.post(
+            "https://api.tavily.com/extract",
+            json={
+                "api_key": TAVILY_API_KEY,
+                "urls": urls,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        chunks = []
+        for r in resp.json().get("results", []):
+            content = r.get("raw_content", "")[:3000]
+            if content:
+                chunks.append(f"【{r.get('url', '')}】\n{content}")
+        return "\n\n".join(chunks)
+    except Exception as e:
+        print(f"  ページ取得エラー: {type(e).__name__}: {e}")
+        return ""
+
+
+def get_gunpla_raw() -> str:
+    """ガンプラ情報の検索結果テキストを取得（カレンダー直取得→検索フォールバック）"""
+    urls = find_calendar_urls()
+    print(f"  カレンダーページ: {urls}")
+    raw = extract_pages(urls)
+    if raw:
+        return raw
+    # フォールバック: 従来の検索方式
+    cat = config["gunpla_categories"][0]
     results = search_from_sites(
         cat["query"] + f" {today.year}年{today.month}月",
         cat["sites"],
         max_results=3,
         days=30,
     )
-    raw = "\n".join(
+    return "\n".join(
         f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}"
         for r in results
     ) or "検索結果なし"
 
+
+def build_gunpla_message(raw: str) -> str:
     prompt = (
-        f"以下の検索結果をもとに、ガンプラの新作・再販情報を日本語でまとめてください。\n"
-        f"今日は{today_str}です。\n\n"
-        f"【検索結果】\n{raw}\n\n"
+        f"以下のページ内容をもとに、ガンプラの新作・再販情報を日本語でまとめてください。\n"
+        f"今日は{today_str}です。今月・来月の情報を優先してください。\n\n"
+        f"【ページ内容】\n{raw}\n\n"
         f"## 出力フォーマット（このフォーマットのみ出力）\n"
         f"🆕 ガンプラ新作\n"
         f"① 商品名 — 発売日・価格\n　一言コメント\n"
@@ -201,33 +265,23 @@ def build_gunpla_message() -> str:
         f"① 商品名 — 再販時期\n　一言コメント\n"
         f"② 商品名 — 再販時期\n　一言コメント\n"
         f"③ 商品名 — 再販時期\n　一言コメント\n\n"
-        f"- 検索結果にある具体的な情報のみ使う\n"
+        f"- ページ内容にある具体的な情報のみ使う\n"
+        f"- 過去の日付（今日より前）の情報は使わないこと\n"
         f"- 情報がない場合は「現時点で情報なし」\n"
         f"- 余計な前置き・後書き不要"
     )
     return ask_groq(prompt)
 
 
-def build_gunpla_events_json() -> str:
-    cat = config["gunpla_categories"][0]
-    results = search_from_sites(
-        cat["query"] + f" {today.year}年{today.month}月",
-        cat["sites"],
-        max_results=3,
-        days=30,
-    )
-    raw = "\n".join(
-        f"・{r['title']}（{r['url']}）\n  {r['content'][:200]}"
-        for r in results
-    ) or "検索結果なし"
-
+def build_gunpla_events_json(raw: str) -> str:
     prompt = (
-        f"以下の検索結果から、ガンプラの再販・新作発売予定をJSON形式で返してください。\n"
+        f"以下のページ内容から、ガンプラの再販・新作発売予定をJSON形式で返してください。\n"
         f"今日は{today_str}です。\n\n"
-        f"【検索結果】\n{raw}\n\n"
+        f"【ページ内容】\n{raw}\n\n"
         f"## 出力フォーマット（JSONのみ・余計な文字不要）\n"
         f'[\n  {{\n    "name": "商品名",\n    "date": "YYYY-MM-DD",\n    "description": "概要1〜2文"\n  }}\n]\n\n'
         f"- 発売日・再販日が明確なものだけ含める\n"
+        f"- 今日より前の日付は除外\n"
         f"- 日付不明は除外\n"
         f"- 最大10件\n"
         f"- JSONのみ返すこと"
@@ -293,11 +347,11 @@ def create_discord_event(name: str, date_str: str, description: str, existing: s
         return False
 
 
-def register_gunpla_events() -> int:
+def register_gunpla_events(raw: str) -> int:
     existing = get_existing_events()
     print(f"  既存イベント数: {len(existing)}")
-    raw = build_gunpla_events_json()
-    clean = raw.replace("```json", "").replace("```", "").strip()
+    events_json = build_gunpla_events_json(raw)
+    clean = events_json.replace("```json", "").replace("```", "").strip()
     try:
         items = json.loads(clean)
     except json.JSONDecodeError as e:
@@ -328,11 +382,12 @@ def run_news():
 
 def run_gunpla():
     print("🔧 ガンプラ情報生成中...")
-    gunpla_body = build_gunpla_message()
+    raw = get_gunpla_raw()
+    gunpla_body = build_gunpla_message(raw)
     post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
     print("✅ ガンプラ投稿完了")
     print("📅 ガンプラ再販イベント登録中...")
-    count = register_gunpla_events()
+    count = register_gunpla_events(raw)
     print(f"✅ イベント登録完了（{count}件）")
 
 
