@@ -205,6 +205,18 @@ def find_calendar_urls() -> list:
     return urls[:4]
 
 
+def clean_text(text: str) -> str:
+    """Markdownのリンク・画像・URLエンコードのゴミを除去してテキストを軽量化"""
+    import re
+    text = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', text)
+    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
+    text = re.sub(r'https?://\S+', '', text)
+    text = re.sub(r'(?:%[0-9A-Fa-f]{2}){3,}', '', text)
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
+
+
 def extract_pages(urls: list) -> str:
     """Tavily extract APIでページ本文を取得"""
     if not urls:
@@ -221,14 +233,12 @@ def extract_pages(urls: list) -> str:
         resp.raise_for_status()
         chunks = []
         for r in resp.json().get("results", []):
-            content = r.get("raw_content", "")[:8000]
-            print(f"  取得: {r.get('url', '')} ({len(r.get('raw_content', ''))}文字)")
+            content = clean_text(r.get("raw_content", ""))[:4000]
+            print(f"  取得: {r.get('url', '')} (クリーニング後 {len(content)}文字)")
             if content:
                 chunks.append(f"【{r.get('url', '')}】\n{content}")
-        combined = "\n\n".join(chunks)
+        combined = "\n\n".join(chunks)[:12000]
         print(f"  合計テキスト: {len(combined)}文字")
-        if combined:
-            print(f"  先頭500文字サンプル:\n{combined[:500]}")
         return combined
     except Exception as e:
         print(f"  ページ取得エラー: {type(e).__name__}: {e}")
