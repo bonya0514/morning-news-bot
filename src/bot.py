@@ -221,10 +221,15 @@ def extract_pages(urls: list) -> str:
         resp.raise_for_status()
         chunks = []
         for r in resp.json().get("results", []):
-            content = r.get("raw_content", "")[:3000]
+            content = r.get("raw_content", "")[:8000]
+            print(f"  取得: {r.get('url', '')} ({len(r.get('raw_content', ''))}文字)")
             if content:
                 chunks.append(f"【{r.get('url', '')}】\n{content}")
-        return "\n\n".join(chunks)
+        combined = "\n\n".join(chunks)
+        print(f"  合計テキスト: {len(combined)}文字")
+        if combined:
+            print(f"  先頭500文字サンプル:\n{combined[:500]}")
+        return combined
     except Exception as e:
         print(f"  ページ取得エラー: {type(e).__name__}: {e}")
         return ""
