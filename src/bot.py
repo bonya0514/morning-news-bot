@@ -259,7 +259,7 @@ def extract_pages(urls: list) -> str:
             cleaned = clean_text(r.get("raw_content", ""))
             toc = extract_toc(cleaned)
             if toc:
-                content = toc[:6000]
+                content = toc  # パース用なので制限なし
                 kind = "目次"
             else:
                 content = cleaned[:3000]
@@ -267,7 +267,7 @@ def extract_pages(urls: list) -> str:
             print(f"  取得: {r.get('url', '')} ({kind} {len(content)}文字)")
             if content:
                 chunks.append(f"【{r.get('url', '')}】\n{content}")
-        combined = "\n\n".join(chunks)[:12000]
+        combined = "\n\n".join(chunks)
         print(f"  合計テキスト: {len(combined)}文字")
         return combined
     except Exception as e:
@@ -379,6 +379,7 @@ def format_gunpla_schedule(sections: list) -> str:
 
 
 def build_gunpla_message(raw: str) -> str:
+    raw = raw[:12000]  # Groq TPM制限対策
     prompt = (
         f"以下のページ内容をもとに、ガンプラの新作・再販予定を日本語でまとめてください。\n"
         f"今日は{today_str}です。今日以降の予定だけを対象にしてください。\n\n"
@@ -406,6 +407,7 @@ def build_gunpla_message(raw: str) -> str:
 
 
 def build_gunpla_events_json(raw: str) -> str:
+    raw = raw[:12000]  # Groq TPM制限対策
     prompt = (
         f"以下のページ内容から、ガンプラの再販・新作発売予定をJSON形式で返してください。\n"
         f"今日は{today_str}です。\n\n"
@@ -531,21 +533,40 @@ def run_gunpla():
     sections = parse_gunpla_schedule(raw)
     print(f"  パース結果: {len(sections)}日分")
 
+    half = "上期" if today.day <= 15 else "下期"
+    title = f"# 📅 月次再販情報（{today.month}月{half}）｜{today_str}"
+
     if sections:
         # パース成功: LLMを使わず正確なリストを投稿
         gunpla_body = format_gunpla_schedule(sections)
-        post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
+        post_discord(DISCORD_GUNPLA_URL, f"{title}\n\n{gunpla_body}")
         print("✅ ガンプラ投稿完了")
         print("📅 ガンプラ再販イベント登録中...")
         count = register_gunpla_events_from_schedule(sections)
     else:
         # フォールバック: 従来のGroq要約
         gunpla_body = build_gunpla_message(raw)
-        post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
+        post_discord(DISCORD_GUNPLA_URL, f"{title}\n\n{gunpla_body}")
         print("✅ ガンプラ投稿完了")
         print("📅 ガンプラ再販イベント登録中...")
         count = register_gunpla_events(raw)
     print(f"✅ イベント登録完了（{count}件）")
+
+
+def run_gunpla_today():
+    """当日再販・新作があればガンプラチャンネルに投稿（なければ何もしない）"""
+    print("🔧 当日ガンプラチェック中...")
+    try:
+        raw = get_gunpla_raw()
+        sections = [s for s in parse_gunpla_schedule(raw) if s["date"] == today]
+        if not sections:
+            print("  本日分なし、投稿スキップ")
+            return
+        body = format_gunpla_schedule(sections)
+        post_discord(DISCORD_GUNPLA_URL, f"# 🔔 当日再販情報｜{today_str}\n\n{body}")
+        print("✅ 当日ガンプラ投稿完了")
+    except Exception as e:
+        print(f"  ⚠️ 当日ガンプラチェック失敗: {type(e).__name__}: {e}")
 
 
 if __name__ == "__main__":
@@ -557,3 +578,4 @@ if __name__ == "__main__":
         run_gunpla()
     else:
         run_news()
+        run_gunpla_today()
