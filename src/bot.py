@@ -343,24 +343,31 @@ def parse_gunpla_schedule(text: str) -> list:
         if _re.match(r'^\d+月\d+日', candidate):
             current = None
             continue
-        name = _re.sub(r'【[^】]*】', '', candidate).strip()
-        name = _re.sub(r'※.*$', '', name).strip()
-        name = name.strip('*').strip()
+        display = _re.sub(r'※.*$', '', candidate).strip().strip('*').strip()
+        display = _re.sub(r'【([^】]*)】', lambda m2: f" [{m2.group(1)}]", display).strip()
+        key = _re.sub(r'\[[^\]]*\]', '', _re.sub(r'【[^】]*】', '', candidate)).strip()
+        key = _re.sub(r'※.*$', '', key).strip().strip('*').strip()
         # グレードで絞り込み（前方一致）
-        if any(name.startswith(g) for g in grades):
-            if name not in current["items"]:
-                current["items"].append(name)
-    # 同じ (月, 日, 種別) をマージして重複除去
+        if any(display.startswith(g) for g in grades):
+            if key not in current.setdefault("_keys", set()):
+                current["_keys"].add(key)
+                current["items"].append(display)
+    # 同じ (月, 日, 種別) をマージして重複除去（注釈違いも同一商品として扱う）
+    def _item_key(n):
+        return _re.sub(r'\[[^\]]*\]', '', n).strip()
     merged = {}
     order = []
     for s in sections:
         key = (s["month"], s["day"], s["kind"])
         if key not in merged:
             merged[key] = s
+            merged[key]["_keys"] = {_item_key(n) for n in s["items"]}
             order.append(key)
         else:
             for n in s["items"]:
-                if n not in merged[key]["items"]:
+                ik = _item_key(n)
+                if ik not in merged[key]["_keys"]:
+                    merged[key]["_keys"].add(ik)
                     merged[key]["items"].append(n)
     # 今日以降・商品ありのみ
     result = []
