@@ -27,6 +27,18 @@ gunpla_categories:
       - kaigoshinootakunaburogu.com
       - harmonizers-jp.com
 
+# 表示するグレード（前方一致。HGでHGUC/HGCE/HGFC等も含む）
+gunpla_grades:
+  - HG
+  - RG
+  - MG
+  - MGSD
+  - RE/100
+  - FULL MECHANICS
+  - EG
+  - ENTRY GRADE
+  - PG
+
 schedule:
   hour: 7
   minute: 0

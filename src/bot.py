@@ -296,6 +296,65 @@ def get_gunpla_raw() -> str:
     ) or "検索結果なし"
 
 
+import re as _re
+
+def parse_gunpla_schedule(text: str) -> list:
+    """目次テキストから (月, 日, 曜日, 種別, [商品]) を抽出"""
+    grades = config.get("gunpla_grades", ["HG", "RG", "MG", "RE/100", "MGSD", "FULL MECHANICS", "EG", "ENTRY GRADE", "PG"])
+    date_re = _re.compile(r'^\s*\d+\.\s*(\d+)月(\d+)日（(.)）.*?(新作|再販)')
+    item_re = _re.compile(r'^\s*\d+\.\s*(.+)$')
+    sections = []
+    current = None
+    for line in text.split("\n"):
+        m = date_re.match(line)
+        if m:
+            current = {
+                "month": int(m.group(1)),
+                "day": int(m.group(2)),
+                "weekday": m.group(3),
+                "kind": m.group(4),
+                "items": [],
+            }
+            sections.append(current)
+            continue
+        if current is None:
+            continue
+        m = item_re.match(line)
+        if m:
+            name = _re.sub(r'【[^】]*】', '', m.group(1)).strip()
+            # グレードで絞り込み（前方一致）
+            if any(name.startswith(g) for g in grades):
+                if name not in current["items"]:
+                    current["items"].append(name)
+    # 今日以降・商品ありのみ
+    result = []
+    for s in sections:
+        try:
+            d = datetime.date(today.year, s["month"], s["day"])
+        except ValueError:
+            continue
+        if d >= today and s["items"]:
+            s["date"] = d
+            result.append(s)
+    result.sort(key=lambda s: (s["date"], s["kind"]))
+    return result
+
+
+def format_gunpla_schedule(sections: list) -> str:
+    """パース結果を投稿用テキストに整形"""
+    new_parts, resale_parts = [], []
+    for s in sections:
+        block = f"📅 {s['month']}月{s['day']}日（{s['weekday']}）\n" + "\n".join(f"・{n}" for n in s["items"])
+        if s["kind"] == "新作":
+            new_parts.append(block)
+        else:
+            resale_parts.append(block)
+    out = []
+    out.append("🆕 新作発売予定\n" + ("\n\n".join(new_parts) if new_parts else "現時点で情報なし"))
+    out.append("🔄 再販予定\n" + ("\n\n".join(resale_parts) if resale_parts else "現時点で情報なし"))
+    return "\n\n".join(out)
+
+
 def build_gunpla_message(raw: str) -> str:
     prompt = (
         f"以下のページ内容をもとに、ガンプラの新作・再販予定を日本語でまとめてください。\n"
@@ -418,6 +477,19 @@ def register_gunpla_events(raw: str) -> int:
     return count
 
 
+def register_gunpla_events_from_schedule(sections: list) -> int:
+    """パース結果から日付ごとに1イベント登録"""
+    existing = get_existing_events()
+    print(f"  既存イベント数: {len(existing)}")
+    count = 0
+    for s in sections:
+        name = f"{s['month']}月{s['day']}日 ガンプラ{s['kind']}予測"
+        description = "\n".join(f"・{n}" for n in s["items"])[:950]
+        if create_discord_event(name, s["date"].isoformat(), description, existing):
+            count += 1
+    return count
+
+
 # ── メイン ────────────────────────────────────────────
 def run_news():
     print("📰 ニュースまとめ生成中...")
@@ -433,11 +505,23 @@ def run_news():
 def run_gunpla():
     print("🔧 ガンプラ情報生成中...")
     raw = get_gunpla_raw()
-    gunpla_body = build_gunpla_message(raw)
-    post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
-    print("✅ ガンプラ投稿完了")
-    print("📅 ガンプラ再販イベント登録中...")
-    count = register_gunpla_events(raw)
+    sections = parse_gunpla_schedule(raw)
+    print(f"  パース結果: {len(sections)}日分")
+
+    if sections:
+        # パース成功: LLMを使わず正確なリストを投稿
+        gunpla_body = format_gunpla_schedule(sections)
+        post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
+        print("✅ ガンプラ投稿完了")
+        print("📅 ガンプラ再販イベント登録中...")
+        count = register_gunpla_events_from_schedule(sections)
+    else:
+        # フォールバック: 従来のGroq要約
+        gunpla_body = build_gunpla_message(raw)
+        post_discord(DISCORD_GUNPLA_URL, f"# 🔧 ガンプラ最新情報｜{today_str}\n\n{gunpla_body}")
+        print("✅ ガンプラ投稿完了")
+        print("📅 ガンプラ再販イベント登録中...")
+        count = register_gunpla_events(raw)
     print(f"✅ イベント登録完了（{count}件）")
 
 
