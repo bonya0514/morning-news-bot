@@ -306,6 +306,10 @@ def parse_gunpla_schedule(text: str) -> list:
     sections = []
     current = None
     for line in text.split("\n"):
+        # ページ境界（【https://...】）でセクションをリセット
+        if line.strip().startswith("【http"):
+            current = None
+            continue
         m = date_re.match(line)
         if m:
             current = {
@@ -321,14 +325,33 @@ def parse_gunpla_schedule(text: str) -> list:
             continue
         m = item_re.match(line)
         if m:
-            name = _re.sub(r'【[^】]*】', '', m.group(1)).strip()
+            candidate = m.group(1).strip()
+            # 日付っぽい行がフォーマット違いで来たらセクションを閉じる（誤混入防止）
+            if _re.match(r'^\d+月\d+日', candidate):
+                current = None
+                continue
+            name = _re.sub(r'【[^】]*】', '', candidate).strip()
+            name = _re.sub(r'※.*$', '', name).strip()
             # グレードで絞り込み（前方一致）
             if any(name.startswith(g) for g in grades):
                 if name not in current["items"]:
                     current["items"].append(name)
+    # 同じ (月, 日, 種別) をマージして重複除去
+    merged = {}
+    order = []
+    for s in sections:
+        key = (s["month"], s["day"], s["kind"])
+        if key not in merged:
+            merged[key] = s
+            order.append(key)
+        else:
+            for n in s["items"]:
+                if n not in merged[key]["items"]:
+                    merged[key]["items"].append(n)
     # 今日以降・商品ありのみ
     result = []
-    for s in sections:
+    for key in order:
+        s = merged[key]
         try:
             d = datetime.date(today.year, s["month"], s["day"])
         except ValueError:
