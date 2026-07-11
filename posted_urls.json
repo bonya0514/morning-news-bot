@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2508/29/news028.html",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/416/4416110/",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/398/4398254/galleryimg.html?num=4",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/benq-ma270u/",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/jbl-live-buds4-live-beam4/",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/foldable-iphone-rumor/",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://www.4gamer.net/games/950/G095002/20260410027/",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80293",
-      "posted_at": "2026-07-05"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80276",
-      "posted_at": "2026-07-05"
-    },
-    {
       "url": "https://itmedia.co.jp/news/articles/source-url",
       "posted_at": "2026-07-06"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.famitsu.com/schedule/all-platforms?genre=rpg&theme=17",
       "posted_at": "2026-07-11"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2607/09/news102.html",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/415/4415230/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/418/4418069/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/fold-iphone-rumor/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/nvidia-touts-100-reduction-in-water-use-with-new-data-center-design-jpn/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/iphone-x-unbox-review/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999903/20260205063/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
+      "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/994/G099487/20260330033/",
+      "posted_at": "2026-07-12"
     }
   ]
 }
