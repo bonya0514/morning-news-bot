@@ -265,6 +265,8 @@ def extract_pages(urls: list) -> str:
                 content = cleaned[:3000]
                 kind = "本文"
             print(f"  取得: {r.get('url', '')} ({kind} {len(content)}文字)")
+            if toc:
+                print(f"  --- 目次末尾300文字 ---\n{toc[-300:]}\n  ---")
             if content:
                 chunks.append(f"【{r.get('url', '')}】\n{content}")
         combined = "\n\n".join(chunks)
@@ -360,6 +362,8 @@ def parse_gunpla_schedule(text: str) -> list:
             s["date"] = d
             result.append(s)
     result.sort(key=lambda s: (s["date"], s["kind"]))
+    for s in result:
+        print(f"  パース: {s['month']}月{s['day']}日 {s['kind']} {len(s['items'])}件")
     return result
 
 
