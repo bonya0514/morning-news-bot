@@ -27,6 +27,11 @@ gunpla_categories:
       - kaigoshinootakunaburogu.com
       - harmonizers-jp.com
 
+# 再販カレンダーの既知URLパターン（{year}=西暦、{month_en}=英語月名）
+gunpla_url_templates:
+  - "https://kaigoshinootakunaburogu.com/gunpla-resale-calendar-{year}{month_en}"
+  - "https://kaigoshinootakunaburogu.com/gunpla-plasticmodel-resale-{year}{month_en}"
+
 # 表示するグレード（前方一致。HGでHGUC/HGCE/HGFC等も含む）
 gunpla_grades:
   - HG

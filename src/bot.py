@@ -176,10 +176,16 @@ def build_news_message(posted_data: dict) -> tuple:
 
 # ── ガンプラ情報生成 ──────────────────────────────────
 def find_calendar_urls() -> list:
-    """再販カレンダーページのURLをTavily検索で特定"""
+    """再販カレンダーページのURLを取得（既知パターンの直接URL＋Tavily検索）"""
     cat = config["gunpla_categories"][0]
-    query = f"ガンプラ 再販 カレンダー {today.year}年{today.month}月"
+    month_en = ["", "january", "february", "march", "april", "may", "june",
+                "july", "august", "september", "october", "november", "december"][today.month]
     urls = []
+    # 既知のURLパターンを直接組み立て（検索のブレに依存しない）
+    for tpl in config.get("gunpla_url_templates", []):
+        urls.append(tpl.format(year=today.year, month_en=month_en))
+    # Tavily検索で補完
+    query = f"ガンプラ 再販 カレンダー {today.year}年{today.month}月"
     for site in cat["sites"]:
         try:
             resp = requests.post(
@@ -199,10 +205,11 @@ def find_calendar_urls() -> list:
                 title = r.get("title", "")
                 # 今年のカレンダー・再販情報ページっぽいものだけ
                 if url and (str(today.year) in url or str(today.year) in title):
-                    urls.append(url)
+                    if url not in urls:
+                        urls.append(url)
         except Exception as e:
             print(f"  カレンダーURL検索エラー ({site}): {type(e).__name__}: {e}")
-    return urls[:4]
+    return urls[:5]
 
 
 def clean_text(text: str) -> str:
@@ -454,6 +461,9 @@ def create_discord_event(name: str, date_str: str, description: str, existing: s
         print(f"  スキップ（重複）: {name}")
         return False
     try:
+        if not _re.match(r'^\d{4}-\d{2}-\d{2}$', date_str):
+            print(f"  スキップ（日付不正: {date_str}）: {name}")
+            return False
         event_date = datetime.date.fromisoformat(date_str)
         if event_date < today:
             print(f"  スキップ（過去日付）: {name}")
