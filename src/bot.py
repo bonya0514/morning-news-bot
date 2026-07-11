@@ -241,7 +241,7 @@ def extract_toc(text: str) -> str:
 
 
 def extract_pages(urls: list) -> str:
-    """Tavily extract APIでページ本文を取得（目次があれば目次を優先）"""
+    """Tavily extract APIでページ本文を取得（クリーニング済み全文）"""
     if not urls:
         return ""
     try:
@@ -257,18 +257,9 @@ def extract_pages(urls: list) -> str:
         chunks = []
         for r in resp.json().get("results", []):
             cleaned = clean_text(r.get("raw_content", ""))
-            toc = extract_toc(cleaned)
-            if toc:
-                content = toc  # パース用なので制限なし
-                kind = "目次"
-            else:
-                content = cleaned[:3000]
-                kind = "本文"
-            print(f"  取得: {r.get('url', '')} ({kind} {len(content)}文字)")
-            if toc:
-                print(f"  --- 目次末尾300文字 ---\n{toc[-300:]}\n  ---")
-            if content:
-                chunks.append(f"【{r.get('url', '')}】\n{content}")
+            print(f"  取得: {r.get('url', '')} (クリーニング後 {len(cleaned)}文字)")
+            if cleaned:
+                chunks.append(f"【{r.get('url', '')}】\n{cleaned}")
         combined = "\n\n".join(chunks)
         print(f"  合計テキスト: {len(combined)}文字")
         return combined
@@ -301,10 +292,13 @@ def get_gunpla_raw() -> str:
 import re as _re
 
 def parse_gunpla_schedule(text: str) -> list:
-    """目次テキストから (月, 日, 曜日, 種別, [商品]) を抽出"""
+    """本文/目次から (月, 日, 曜日, 種別, [商品]) を抽出"""
     grades = config.get("gunpla_grades", ["HG", "RG", "MG", "RE/100", "MGSD", "FULL MECHANICS", "EG", "ENTRY GRADE", "PG"])
-    date_re = _re.compile(r'^\s*\d+\.\s*(\d+)月(\d+)日（(.)）.*?(新作|再販)')
-    item_re = _re.compile(r'^\s*\d+\.\s*(.+)$')
+    # 日付見出し: 「1. 7月6日（月）〜再販予測リスト」(目次) or 「## 7月6日（月）〜」(本文)
+    date_re = _re.compile(r'^\s*(?:\d+\.|#{2,4})\s*(\d+)月(\d+)日（(.)）.*?(新作|再販)')
+    h2_re   = _re.compile(r'^\s*##\s')          # 日付以外のh2見出し（セクション終了）
+    h3_re   = _re.compile(r'^\s*###\s*(.+)$')   # 本文の商品見出し
+    num_re  = _re.compile(r'^\s*\d+\.\s*(.+)$') # 目次の商品行
     sections = []
     current = None
     for line in text.split("\n"):
@@ -323,21 +317,32 @@ def parse_gunpla_schedule(text: str) -> list:
             }
             sections.append(current)
             continue
-        if current is None:
-            continue
-        m = item_re.match(line)
-        if m:
-            candidate = m.group(1).strip()
-            # 日付っぽい行がフォーマット違いで来たらセクションを閉じる（誤混入防止）
-            if _re.match(r'^\d+月\d+日', candidate):
+        # 商品見出し（###）を先にチェック
+        m = h3_re.match(line)
+        if m is None:
+            # 日付にマッチしないh2見出し → セクション終了（ランキング等の混入防止）
+            if h2_re.match(line):
                 current = None
                 continue
-            name = _re.sub(r'【[^】]*】', '', candidate).strip()
-            name = _re.sub(r'※.*$', '', name).strip()
-            # グレードで絞り込み（前方一致）
-            if any(name.startswith(g) for g in grades):
-                if name not in current["items"]:
-                    current["items"].append(name)
+            if current is None:
+                continue
+            m = num_re.match(line)
+            if m is None:
+                continue
+        if current is None:
+            continue
+        candidate = m.group(1).strip()
+        # 日付っぽい行がフォーマット違いで来たらセクションを閉じる（誤混入防止）
+        if _re.match(r'^\d+月\d+日', candidate):
+            current = None
+            continue
+        name = _re.sub(r'【[^】]*】', '', candidate).strip()
+        name = _re.sub(r'※.*$', '', name).strip()
+        name = name.strip('*').strip()
+        # グレードで絞り込み（前方一致）
+        if any(name.startswith(g) for g in grades):
+            if name not in current["items"]:
+                current["items"].append(name)
     # 同じ (月, 日, 種別) をマージして重複除去
     merged = {}
     order = []
@@ -537,7 +542,17 @@ def run_gunpla():
     sections = parse_gunpla_schedule(raw)
     print(f"  パース結果: {len(sections)}日分")
 
-    half = "上期" if today.day <= 15 else "下期"
+    # 上期(1〜15日) / 下期(16日〜月末) で範囲を絞る
+    if today.day <= 15:
+        half = "上期"
+        end = datetime.date(today.year, today.month, 15)
+    else:
+        half = "下期"
+        next_month = datetime.date(today.year + (today.month // 12), (today.month % 12) + 1, 1)
+        end = next_month - datetime.timedelta(days=1)
+    sections = [s for s in sections if s["date"] <= end]
+    print(f"  {half}範囲（〜{end.month}月{end.day}日）: {len(sections)}日分")
+
     title = f"# 📅 月次再販情報（{today.month}月{half}）｜{today_str}"
 
     if sections:
