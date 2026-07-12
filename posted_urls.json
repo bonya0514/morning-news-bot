@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://itmedia.co.jp/news/articles/source-url",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2607/05/news015_3.html",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/subtop/digimono/index.html",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/peacock_miniicepack_for_summer/",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/huawei-freebuds-pro-review",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/amazon-short-bose-quietcomfortultraearbuds-2507",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.4gamer.net/indextop/pc_news.html",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202605/72904",
-      "posted_at": "2026-07-06"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/ps5",
-      "posted_at": "2026-07-06"
-    },
-    {
       "url": "https://www.itmedia.co.jp/author/153152/",
       "posted_at": "2026-07-07"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/994/G099487/20260330033/",
       "posted_at": "2026-07-12"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/business/articles/2607/11/news005.html",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3907097/",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3906514/",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=92687",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/nothing-ear-1-blakc-photo-review",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/htc_j_review",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80856",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80846",
+      "posted_at": "2026-07-13"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80674",
+      "posted_at": "2026-07-13"
     }
   ]
 }
