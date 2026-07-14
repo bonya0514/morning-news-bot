@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/articles/2607/06/news089.html",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/05/news015_3.html",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/business/articles/2605/20/news107.html",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/open-ear-audio-is-having-a-huge-moment-right-now",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm3-review",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/soundcore-space-2-review",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.4gamer.net/games/635/G063504/20260630039/",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.4gamer.net/games/981/G098132/20260205069/",
-      "posted_at": "2026-07-08"
-    },
-    {
-      "url": "https://www.4gamer.net/games/738/G073812/20250918075/",
-      "posted_at": "2026-07-08"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/articles/2607/03/news028.html",
       "posted_at": "2026-07-09"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/schedule/switch",
       "posted_at": "2026-07-14"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/166171/",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/13/news090.html",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/416/4416110/",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "/goto?url=CAESTwHuR6pNtPUaxzktt-AgZJJow4X1kvSZuhcZiNx-MRWdBbQyrUrf-yB_xqYjNHaa43V_TkOyKsS6a6AQJ4rzVToIgilXDDomt3Xm6JlJepI=",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "/goto?url=CAESdQHuR6pNxhBrhuhN4jdAru3FgWy9mJDrRJ9dvx4Vzn0CQadY8GecHmjSIn9UpairaXlfjylNC8YEZnwCrkD-E5bhrbJEDOwKxTYoOG4NSirS_-jssZK9_SaALka_HBps0BVKwDQA4psw9fGRIizYBzQ3d6cFsQ==",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "/goto?url=CAESbAHuR6pN_PhtNtF-3yhj6YIczDxZBsp_BwvgEUbKwb4Dl3oMNHrW6g-Dr7EMpKVL1nXHHFLwpBcZ0dIeGlkn18WQ5ZcTG1Ku3l0jVBvcXiAHb4bFjufnIPZAaTj3W0QhjwzMpEE45gpN_BKEJA==",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/981/G098132/20260205069/",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80863",
+      "posted_at": "2026-07-15"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/81351",
+      "posted_at": "2026-07-15"
     }
   ]
 }
