@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/03/news028.html",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2511/20/news032.html",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/403/4403454",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=79997",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sony-wf-1000xm6-yes-these-wireless-earbuds-sound-that-good",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2606-your-pixel-can-do-7-new-things-now-that-it-couldnt-do-last-month/",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/983/G098329/20260213032",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/990/G099002/20260605036/index_2.html",
-      "posted_at": "2026-07-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/013/G101399/20260606050",
-      "posted_at": "2026-07-09"
-    },
-    {
       "url": "https://nlab.itmedia.co.jp/research/articles/3910808/",
       "posted_at": "2026-07-10"
     },
@@ -251,6 +215,34 @@
     {
       "url": "https://www.famitsu.com/article/202607/81351",
       "posted_at": "2026-07-15"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/116751/",
+      "posted_at": "2026-07-16"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/409/4409619/",
+      "posted_at": "2026-07-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/oxtak-money-penny-laurent-san/",
+      "posted_at": "2026-07-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/torras-ces-report/",
+      "posted_at": "2026-07-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-primeday-2026-0710-1/",
+      "posted_at": "2026-07-16"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80926",
+      "posted_at": "2026-07-16"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/81454",
+      "posted_at": "2026-07-16"
     }
   ]
 }
