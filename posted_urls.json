@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://nlab.itmedia.co.jp/research/articles/3912468/",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2607/09/news107.html",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/spv/2607/09/news107.html",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/kikippa-earphone-02",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=64002",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/samsung-galaxy-buds-review-us",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.4gamer.net/games/997/G099725/20260409004",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule",
-      "posted_at": "2026-07-11"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/all-platforms?genre=rpg&theme=17",
-      "posted_at": "2026-07-11"
-    },
-    {
       "url": "https://www.itmedia.co.jp/mobile/amp/2607/09/news102.html",
       "posted_at": "2026-07-12"
     },
@@ -279,6 +243,38 @@
     {
       "url": "https://www.4gamer.net/games/954/G095479/20260712004",
       "posted_at": "2026-07-17"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3942218/",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/420/4420370/galleryimg.html?num=1",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/rayneo-air-4-pro/",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/citizen_attesa_act-line/",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20260712012/",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule/all-platforms?genre=rpg&theme=4",
+      "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80987",
+      "posted_at": "2026-07-18"
     }
   ]
 }
