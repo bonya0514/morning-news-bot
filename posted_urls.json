@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2607/09/news102.html",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/415/4415230/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/418/4418069/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/fold-iphone-rumor/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/nvidia-touts-100-reduction-in-water-use-with-new-data-center-design-jpn/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/iphone-x-unbox-review/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999903/20260205063/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
-      "posted_at": "2026-07-12"
-    },
-    {
-      "url": "https://www.4gamer.net/games/994/G099487/20260330033/",
-      "posted_at": "2026-07-12"
-    },
-    {
       "url": "https://www.itmedia.co.jp/business/articles/2607/11/news005.html",
       "posted_at": "2026-07-13"
     },
@@ -275,6 +239,42 @@
     {
       "url": "https://www.famitsu.com/article/202607/80987",
       "posted_at": "2026-07-18"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/05/news015_3.html",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/17/news071.html",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/12/news007.html",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/freshservicesports_newcollection",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/the-public-got-so-mad-at-metas-new-ai-photo-tool-that-its-scrapped-already",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/how_pythons_digest_entire_prey_bones_included-ovh",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.4gamer.net/games/988/G098865/20260716009",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.4gamer.net/games/011/G101100/20260716052",
+      "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://www.4gamer.net/games/010/G101087/20260716031",
+      "posted_at": "2026-07-19"
     }
   ]
 }
