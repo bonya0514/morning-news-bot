@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/business/articles/2607/11/news005.html",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://nlab.itmedia.co.jp/research/articles/3907097/",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://nlab.itmedia.co.jp/research/articles/3906514/",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=92687",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/nothing-ear-1-blakc-photo-review",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/htc_j_review",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80856",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80846",
-      "posted_at": "2026-07-13"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80674",
-      "posted_at": "2026-07-13"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/series/34305/",
       "posted_at": "2026-07-14"
     },
@@ -275,6 +239,38 @@
     {
       "url": "https://www.4gamer.net/games/010/G101087/20260716031",
       "posted_at": "2026-07-19"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/415/4415230/",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/418/4418069/",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samsungs-next-galaxy-foldables-will-be-announced-on-july-22/",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/iphone-18-18pro-rumors-summary/",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/just-dont-use-the-super-long-zoom-on-sonys-rx10-v-for-anything-creepy-okay/",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.4gamer.net/games/981/G098181/20260716023",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.4gamer.net/games/004/G100417/20260716006/index_2.html",
+      "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101546/20260714029/index_2.html",
+      "posted_at": "2026-07-20"
     }
   ]
 }
