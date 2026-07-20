@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/series/34305/",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2607/12/news007.html",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/subtop/digimono/index.html",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/razer-hammerhead-true-wireless-earbuds-review",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2602-rokid-smart-ai-glasses-makuake/",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2607-lht-elecom-ist-plus/",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260712004/",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80990",
-      "posted_at": "2026-07-14"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/switch",
-      "posted_at": "2026-07-14"
-    },
-    {
       "url": "https://www.itmedia.co.jp/author/166171/",
       "posted_at": "2026-07-15"
     },
@@ -271,6 +235,42 @@
     {
       "url": "https://www.4gamer.net/games/015/G101546/20260714029/index_2.html",
       "posted_at": "2026-07-20"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/05/news015_3.html",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/17/news071.html",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/12/news007.html",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/eero-pro-7-review-great-mesh-networking-even-if-you-dont-have-wi-fi-7-mtp/",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2607-best-galaxy-phone-longevity/",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2312-rakuten-super-sale/",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.4gamer.net/games/994/G099487/20260330033/",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/81802",
+      "posted_at": "2026-07-21"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/80990",
+      "posted_at": "2026-07-21"
     }
   ]
 }
