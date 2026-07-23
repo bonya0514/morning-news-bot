@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/13/news007.html",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/author/166171",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/14/news004.html",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/kikippa-earphone-02/",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/samsung-smart-tag3-rumor/",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2607-tesla-sales-q2-ev-gas-prices-twj/",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260712012",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.4gamer.net/games/011/G101135/20260715033",
-      "posted_at": "2026-07-17"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260712004",
-      "posted_at": "2026-07-17"
-    },
-    {
       "url": "https://nlab.itmedia.co.jp/research/articles/3942218/",
       "posted_at": "2026-07-18"
     },
@@ -243,6 +207,42 @@
     {
       "url": "https://www.4gamer.net/games/129/G012999/20260716005",
       "posted_at": "2026-07-23"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2607/17/news091.html",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/22/news021.html",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/23/news054_2.html",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samusun-galaxy-unpacked-2026",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/thank-god-macos-golden-gates-siri-is-a-terse-idiot",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/er-gk83-bhg",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20260712004/",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
+      "posted_at": "2026-07-24"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/82107",
+      "posted_at": "2026-07-24"
     }
   ]
 }
