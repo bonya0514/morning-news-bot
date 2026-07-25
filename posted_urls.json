@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/05/news015_3.html",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/17/news071.html",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/12/news007.html",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/freshservicesports_newcollection",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/the-public-got-so-mad-at-metas-new-ai-photo-tool-that-its-scrapped-already",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/how_pythons_digest_entire_prey_bones_included-ovh",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.4gamer.net/games/988/G098865/20260716009",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.4gamer.net/games/011/G101100/20260716052",
-      "posted_at": "2026-07-19"
-    },
-    {
-      "url": "https://www.4gamer.net/games/010/G101087/20260716031",
-      "posted_at": "2026-07-19"
-    },
-    {
       "url": "https://ascii.jp/elem/000/004/415/4415230/",
       "posted_at": "2026-07-20"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.famitsu.com/article/202607/82343",
       "posted_at": "2026-07-25"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/13/news090.html",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/422/4422202",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/422/4422055",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/openai_codex_micro/",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/cargo-thieves-stole-million-of-data-center-supplies-sheriff-says/",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20260712004/",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/707/G070745/20260724024/",
+      "posted_at": "2026-07-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
+      "posted_at": "2026-07-26"
     }
   ]
 }
