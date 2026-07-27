@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/05/news015_3.html",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/17/news071.html",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2607/12/news007.html",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/eero-pro-7-review-great-mesh-networking-even-if-you-dont-have-wi-fi-7-mtp/",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2607-best-galaxy-phone-longevity/",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2312-rakuten-super-sale/",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.4gamer.net/games/994/G099487/20260330033/",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/81802",
-      "posted_at": "2026-07-21"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/80990",
-      "posted_at": "2026-07-21"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-07-22"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/018/G101804/20260724068",
       "posted_at": "2026-07-27"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/subtop/archive",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/421/4421637",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/421/4421604",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samsungs-next-galaxy-foldables-will-be-announced-on-july-22/",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0722-3/",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/bose_quietcomfort_ultra_headphones_review/",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/026/G102672/20260722024",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/026/G102666/20260722022",
+      "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/026/G102658/20260722018",
+      "posted_at": "2026-07-28"
     }
   ]
 }
