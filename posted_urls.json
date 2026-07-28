@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/news/subtop/bursts/index.html",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/business/articles/2607/21/news014_2.html",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/when-it-comes-to-energy-use-ai-agents-could-make-chatbots-look-like-pocket-calculators",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/apple-did-it-one-month-with-siri-ai",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/new-study-says-parents-phone-use-might-be-giving-kids-attachment-issues-later-on",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.4gamer.net/games/010/G101087/20260721038/",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260719004/",
-      "posted_at": "2026-07-22"
-    },
-    {
-      "url": "https://www.4gamer.net/games/724/G072426/20260624041/",
-      "posted_at": "2026-07-22"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2607/22/news053.html",
       "posted_at": "2026-07-23"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/026/G102658/20260722018",
       "posted_at": "2026-07-28"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/116751",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/415/4415230/",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0722-3",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0722-2",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samsungs-galaxy-z-fold-8-is-basically-a-free-ad-for-apples-foldable",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20260719004/",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/81950",
+      "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202607/82215",
+      "posted_at": "2026-07-29"
     }
   ]
 }
