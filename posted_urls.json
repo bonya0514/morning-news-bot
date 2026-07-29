@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/22/news053.html",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/409/4409619/",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/420/4420542/",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/plastic_bottles_new_life_batteries",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/x-by-xreal-a01-review-ar-glasses-that-are-light-on-your-face-and-wallet",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/the-results-were-disastrous-after-a-professor-suspecting-ai-use-switched-to-in-person-final-exams",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260719004",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/013/G101319/20260713002",
-      "posted_at": "2026-07-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/129/G012999/20260716005",
-      "posted_at": "2026-07-23"
-    },
-    {
       "url": "https://built.itmedia.co.jp/bt/articles/2607/17/news091.html",
       "posted_at": "2026-07-24"
     },
@@ -251,6 +215,38 @@
     {
       "url": "https://www.famitsu.com/article/202607/82215",
       "posted_at": "2026-07-29"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2607/23/news114.html",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/422/4422271",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0727-1",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/iphone-price-hike-coming-again-in-fall",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0724-1",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://www.4gamer.net/games/316/G031663/20260721020",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20260725002",
+      "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://www.4gamer.net/games/974/G097455/20260723050",
+      "posted_at": "2026-07-30"
     }
   ]
 }
