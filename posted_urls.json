@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://built.itmedia.co.jp/bt/articles/2607/17/news091.html",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/22/news021.html",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/23/news054_2.html",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/samusun-galaxy-unpacked-2026",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/thank-god-macos-golden-gates-siri-is-a-terse-idiot",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/er-gk83-bhg",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260712004/",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
-      "posted_at": "2026-07-24"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/82107",
-      "posted_at": "2026-07-24"
-    },
-    {
       "url": "https://nlab.itmedia.co.jp/cont/articles/3939953/",
       "posted_at": "2026-07-25"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/974/G097455/20260723050",
       "posted_at": "2026-07-30"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/29/news068.html",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/422/4422271/6",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/422/4422823",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/db77a1ee-84b4-4fee-babc-8e62b34d9c30/",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0727-3/",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/solar_power_plant_desert/",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.4gamer.net/games/707/G070745/20260724024",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.4gamer.net/games/236/G023612/20260727009",
+      "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.4gamer.net/games/537/G053703/20260729056",
+      "posted_at": "2026-07-31"
     }
   ]
 }
