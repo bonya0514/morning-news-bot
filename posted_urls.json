@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://nlab.itmedia.co.jp/cont/articles/3939953/",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/author/166171/",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/spv/2607/09/news107.html",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/galaxy-z-fold8-ultra",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/b0d4b520-3c52-49c4-bbf3-5fbc1bff663e",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/db77a1ee-84b4-4fee-babc-8e62b34d9c30",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.4gamer.net/games/707/G070745/20260724024/",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/82294",
-      "posted_at": "2026-07-25"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/82343",
-      "posted_at": "2026-07-25"
-    },
-    {
       "url": "https://www.itmedia.co.jp/news/articles/2607/13/news090.html",
       "posted_at": "2026-07-26"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/537/G053703/20260729056",
       "posted_at": "2026-07-31"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/261886",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/07/nvidiagoogle_deepmind_gemini_robotics_2gemini.html",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/423/4423668",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/samsungs-galaxy-watch-ultra-2-and-watch-9-prioritize-big-batteries",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/on_cloudboom-strike2",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/fuji-feather-review-rmg",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/002/G100259/20260725006",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999104/20260729005",
+      "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/449/G044914/20260724063",
+      "posted_at": "2026-08-01"
     }
   ]
 }
