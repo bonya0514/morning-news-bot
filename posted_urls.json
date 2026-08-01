@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/articles/2607/13/news090.html",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/422/4422202",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/422/4422055",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/openai_codex_micro/",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/cargo-thieves-stole-million-of-data-center-supplies-sheriff-says/",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260712004/",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/707/G070745/20260724024/",
-      "posted_at": "2026-07-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999901/20260206015/",
-      "posted_at": "2026-07-26"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/22/news047.html",
       "posted_at": "2026-07-27"
     },
@@ -247,6 +211,34 @@
     {
       "url": "https://www.4gamer.net/games/449/G044914/20260724063",
       "posted_at": "2026-08-01"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/369/4369242",
+      "posted_at": "2026-08-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/gizmodo-20th-naito",
+      "posted_at": "2026-08-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp",
+      "posted_at": "2026-08-02"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2605-lht-meta-smart-glasses-first-look/",
+      "posted_at": "2026-08-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/002/G100259/20260425004/",
+      "posted_at": "2026-08-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/983/G098329/20260213032/",
+      "posted_at": "2026-08-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/985/G098537/20260528033/",
+      "posted_at": "2026-08-02"
     }
   ]
 }
