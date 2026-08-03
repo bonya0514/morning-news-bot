@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/subtop/archive",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/421/4421637",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/421/4421604",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/samsungs-next-galaxy-foldables-will-be-announced-on-july-22/",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0722-3/",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/bose_quietcomfort_ultra_headphones_review/",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/026/G102672/20260722024",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/026/G102666/20260722022",
-      "posted_at": "2026-07-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/026/G102658/20260722018",
-      "posted_at": "2026-07-28"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-07-29"
     },
@@ -271,6 +235,42 @@
     {
       "url": "https://www.4gamer.net/games/440/G044018/20260731061",
       "posted_at": "2026-08-03"
+    },
+    {
+      "url": "https://nlab.itmedia.co.jp/research/articles/3961370/",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/series/34305/",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/business/articles/2605/20/news107.html",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/new-galaxy-buds-coming-this-autumn",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/inevitably-ads-have-come-to-xbox-game-streaming",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0731-1",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20260802010",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101375/20260804001",
+      "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20260725005",
+      "posted_at": "2026-08-04"
     }
   ]
 }
