@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/author/116751",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/415/4415230/",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0722-3",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0722-2",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/samsungs-galaxy-z-fold-8-is-basically-a-free-ad-for-apples-foldable",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260719004/",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/81950",
-      "posted_at": "2026-07-29"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202607/82215",
-      "posted_at": "2026-07-29"
-    },
-    {
       "url": "https://built.itmedia.co.jp/bt/articles/2607/23/news114.html",
       "posted_at": "2026-07-30"
     },
@@ -271,6 +235,42 @@
     {
       "url": "https://www.4gamer.net/games/954/G095479/20260725005",
       "posted_at": "2026-08-04"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2608/04/news074_2.html",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/news/2608/05/news06.html",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2608/03/news042.html",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0731-2",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/20-years-of-gizmodojp-sage-chen",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0729-3",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/981/G098193/20260804036/index_2.html",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/981/G098193/20260804036",
+      "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/918/G091816/20260803043/index_2.html",
+      "posted_at": "2026-08-05"
     }
   ]
 }
