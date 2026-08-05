@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://built.itmedia.co.jp/bt/articles/2607/23/news114.html",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/422/4422271",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0727-1",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/iphone-price-hike-coming-again-in-fall",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0724-1",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/316/G031663/20260721020",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260725002",
-      "posted_at": "2026-07-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/974/G097455/20260723050",
-      "posted_at": "2026-07-30"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2607/29/news068.html",
       "posted_at": "2026-07-31"
     },
@@ -271,6 +239,42 @@
     {
       "url": "https://www.4gamer.net/games/918/G091816/20260803043/index_2.html",
       "posted_at": "2026-08-05"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news027.html",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news041.html",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/424/4424942",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.gizmodo.jp/category/news",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-motorola-motog37j",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/amazon-timesale-2026-0802-2",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.4gamer.net/games/945/G094545/20260803050",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101375/20260731064",
+      "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule/all-platforms?genre=fighting&theme=20",
+      "posted_at": "2026-08-06"
     }
   ]
 }
