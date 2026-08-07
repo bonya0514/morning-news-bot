@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2607/29/news068.html",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/422/4422271/6",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/422/4422823",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/db77a1ee-84b4-4fee-babc-8e62b34d9c30/",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0727-3/",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/solar_power_plant_desert/",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://www.4gamer.net/games/707/G070745/20260724024",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://www.4gamer.net/games/236/G023612/20260727009",
-      "posted_at": "2026-07-31"
-    },
-    {
-      "url": "https://www.4gamer.net/games/537/G053703/20260729056",
-      "posted_at": "2026-07-31"
-    },
-    {
       "url": "https://www.itmedia.co.jp/author/261886",
       "posted_at": "2026-08-01"
     },
@@ -275,6 +239,42 @@
     {
       "url": "https://www.famitsu.com/schedule/all-platforms?genre=fighting&theme=20",
       "posted_at": "2026-08-06"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news049.html",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/03/news078.html",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/dcd97912-6dc5-4f42-bed7-8f86247684ef",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/20-years-of-gizmodojp-mogi",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/amazon-elecom-connectercable-2608",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/030/G103062/20260805016",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/918/G091816/20260803043",
+      "posted_at": "2026-08-07"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202608/82595",
+      "posted_at": "2026-08-07"
     }
   ]
 }
