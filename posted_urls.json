@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2608/04/news074_2.html",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://techtarget.itmedia.co.jp/tt/news/2608/05/news06.html",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2608/03/news042.html",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0731-2",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/20-years-of-gizmodojp-sage-chen",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0729-3",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.4gamer.net/games/981/G098193/20260804036/index_2.html",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.4gamer.net/games/981/G098193/20260804036",
-      "posted_at": "2026-08-05"
-    },
-    {
-      "url": "https://www.4gamer.net/games/918/G091816/20260803043/index_2.html",
-      "posted_at": "2026-08-05"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news027.html",
       "posted_at": "2026-08-06"
     },
@@ -215,6 +179,42 @@
     {
       "url": "https://www.4gamer.net/games/651/G065189/20260805004",
       "posted_at": "2026-08-11"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2608/10/news053.html",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/subtop/features/di/all.html",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/426/4426043",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0806-2",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0809-1",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2608-costorypo-oxtak-lh-edditorialreview-1175003493",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/019/G101912/20260807010",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101546/20260805028",
+      "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/030/G103085/20260805057",
+      "posted_at": "2026-08-12"
     }
   ]
 }
