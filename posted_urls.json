@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news027.html",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/03/news041.html",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/424/4424942",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://www.gizmodo.jp/category/news",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-motorola-motog37j",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/amazon-timesale-2026-0802-2",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://www.4gamer.net/games/945/G094545/20260803050",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://www.4gamer.net/games/013/G101375/20260731064",
-      "posted_at": "2026-08-06"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/all-platforms?genre=fighting&theme=20",
-      "posted_at": "2026-08-06"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-08-07"
     },
@@ -215,6 +179,42 @@
     {
       "url": "https://www.4gamer.net/games/030/G103085/20260805057",
       "posted_at": "2026-08-12"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2608/12/2000000497",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/426/4426507",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/426/4426520/galleryimg.html?num=13",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/esi_xsynth-gup",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/the-sun-looks-so-hot-right-now",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2707-honda-message-prologue-ev-owner-hybrid-xnt",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.google.com/goto?url=CAESbQHuR6pNkXjiaVCvph1Aan5_MU4ahUlDlkbGEgvMoruBk7aqTACdGWqk9JtsXU7XwCfJiJfDJCtRIp2ZuwxVgmIu6JewGDnP5uIq4Vs-s27QStdXNepVih-4OP4ownb0EU_bRi7krLlJTLOuvIg%3D",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.4gamer.net/games/021/G102117/20260810016",
+      "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202608/84023",
+      "posted_at": "2026-08-13"
     }
   ]
 }
