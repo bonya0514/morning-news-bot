@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news049.html",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/03/news078.html",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/dcd97912-6dc5-4f42-bed7-8f86247684ef",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/20-years-of-gizmodojp-mogi",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/amazon-elecom-connectercable-2608",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/030/G103062/20260805016",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/918/G091816/20260803043",
-      "posted_at": "2026-08-07"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202608/82595",
-      "posted_at": "2026-08-07"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/articles/2608/04/news048.html",
       "posted_at": "2026-08-09"
     },
@@ -215,6 +179,42 @@
     {
       "url": "https://www.famitsu.com/article/202608/84023",
       "posted_at": "2026-08-13"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/articles/2608/12/news047.html",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/261886",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/gameball-vhx",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/60542bb0-a26c-4791-8176-0dc62ece8996",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/rakuten-sale-2026-0807-1",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.4gamer.net/games/031/G103191/20260810020",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.famitsu.com/article/images/202608/84023/826302",
+      "posted_at": "2026-08-14"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202608/83834",
+      "posted_at": "2026-08-14"
     }
   ]
 }
