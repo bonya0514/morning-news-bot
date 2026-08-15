@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2608/04/news048.html",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/author/116751",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/425/4425536",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/oura-ring-5-review-the-best-smart-ring-right-now-and-its-not-close",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-timesale-2026-0804-2",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/sony-may-acquire-tamron",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/031/G103119/20260806034",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/031/G103129/20260806060",
-      "posted_at": "2026-08-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/031/G103115/20260806033",
-      "posted_at": "2026-08-09"
-    },
-    {
       "url": "https://www.google.com/goto?url=CAESZAHuR6pNNJuL-RhYxZaSdMaj0NbMUTzV5FlXsAJj4qv2oRjbl3dSXLMfcKytykJojPRO-JEbpk0NwE5Wr3UJvLyv-johVhJpBhU7Tty6YpgecgIo03uQ4zXAb7dwkKo9fCmKN3c%3D",
       "posted_at": "2026-08-10"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/024/G102495/20260812032",
       "posted_at": "2026-08-15"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/08/5qwen_38_27bdeepseek_v4_proagent.html",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/taps/2026/08/ai2080reckitt2075ai.html",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/426/4426284",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/yamada_y",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/25b960b2-16b0-47aa-98db-de49d5794eef",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/future-apple-watches-might-ditch-the-screen",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202608/83992",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202608/84500",
+      "posted_at": "2026-08-16"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202608/84471",
+      "posted_at": "2026-08-16"
     }
   ]
 }
