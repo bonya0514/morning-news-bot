@@ -44,6 +44,9 @@ gunpla_grades:
   - ENTRY GRADE
   - PG
 
+# 使用するGroqモデル（廃止されたらここを差し替える）
+groq_model: "openai/gpt-oss-20b"
+
 schedule:
   hour: 7
   minute: 0
