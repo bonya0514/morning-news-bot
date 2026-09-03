@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news095.html",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/27/news030.html",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news020.html",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/shokz-put-its-new-open-wireless-earbuds-on-a-diet",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/the-token-belt-tightening-is-coming-for-pdfs-xfm",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/yonex_carbon-cruise-aerus-gt",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/865/G086590/20260827033/index_2.html",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/005/G100529/20260825037/index_2.html",
-      "posted_at": "2026-08-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103535/20260821055",
-      "posted_at": "2026-08-28"
-    },
-    {
       "url": "https://kn.itmedia.co.jp/kn/article/2608/26/2000000724",
       "posted_at": "2026-08-29"
     },
@@ -259,6 +223,18 @@
     {
       "url": "https://www.4gamer.net/games/954/G095479/20260830001",
       "posted_at": "2026-09-03"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2608/14/news067.html",
+      "posted_at": "2026-09-04"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2609/04/2000001123/",
+      "posted_at": "2026-09-04"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news090.html",
+      "posted_at": "2026-09-04"
     }
   ]
 }
