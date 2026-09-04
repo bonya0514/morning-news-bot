@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://kn.itmedia.co.jp/kn/article/2608/26/2000000724",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/430/4430067",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/430/4430230",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/bose-quietcomfort-headphones-2nd-gen-review-still-more-quiet-and-comfortable-than-most",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/machi-ya-slimplatebank-review2-965649",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/gizmodo-japan-20th-miyagi",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103557/20260824046",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/898/G089828/20260828008/index_2.html",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103535/20260827038/index_2.html",
-      "posted_at": "2026-08-29"
-    },
-    {
       "url": "https://kn.itmedia.co.jp/kn/article/2608/29/2000000900",
       "posted_at": "2026-08-30"
     },
@@ -235,6 +199,42 @@
     {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news090.html",
       "posted_at": "2026-09-04"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2609/04/2000001123",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/04/news060.html",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/04/news054.html",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=96191&int=bi001",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/google-pixel-11-pro-review",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-amazon-cojit-sunblocklab",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/020/G102072/20260901006",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/028/G102880/20260903005/index_2.html",
+      "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/990/G999030/20260904063",
+      "posted_at": "2026-09-05"
     }
   ]
 }
