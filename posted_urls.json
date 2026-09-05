@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://kn.itmedia.co.jp/kn/article/2608/29/2000000900",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/26/news048.html",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news075.html",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=82947",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=48696",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2608-lht-xiaomi-redmi-note-17-pro-max-5g",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "https://www.4gamer.net/s/G103557.260824046",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/036/G103635/20260826032",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260823006",
-      "posted_at": "2026-08-30"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/serial/2026/08/nvidiaainvidia_cosmos_coalition.html",
       "posted_at": "2026-08-31"
     },
@@ -235,6 +199,42 @@
     {
       "url": "https://www.4gamer.net/games/990/G999030/20260904063",
       "posted_at": "2026-09-05"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/subtop/features/di/all.html",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/430/4430936",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-costorypo-vk-aspen-review2-1583475328",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/poco-f9-ultra",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/playstation-27-inch-gaming-monitor-with-dualsense-charging-hook-review-exactly-as-the-name-suggests-and-nothing-more",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://www.4gamer.net/games/039/G103950/20260904015",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://www.4gamer.net/games/016/G101602/20260903006",
+      "posted_at": "2026-09-06"
+    },
+    {
+      "url": "https://www.4gamer.net/games/988/G098878/20260904009",
+      "posted_at": "2026-09-06"
     }
   ]
 }
