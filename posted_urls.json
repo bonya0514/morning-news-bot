@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/mobile/articles/2608/30/news004.html",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2608/30/news004.html",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/osonoi/2026/08/8.html",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/swichbot-kata",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=81149",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2608-shokz-openrun-air-2-review",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/911/G091163/20260826031",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/002/G100241/20260831028/index_2.html",
-      "posted_at": "2026-09-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/202/G020288/20260829009",
-      "posted_at": "2026-09-01"
-    },
-    {
       "url": "https://www.itmedia.co.jp/author/100105",
       "posted_at": "2026-09-02"
     },
@@ -235,6 +199,42 @@
     {
       "url": "https://www.famitsu.com/article/202609/86790",
       "posted_at": "2026-09-07"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/xchatgpt-6_astra--.html",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/07/news042_2.html",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/432/4432319",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-lht-monitor-matome",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/amazon-dragons-dogma2-dark-arisen",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609_gizmodo_iphone12-6years-review",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096866/20260903011",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/86792",
+      "posted_at": "2026-09-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/86855",
+      "posted_at": "2026-09-08"
     }
   ]
 }
