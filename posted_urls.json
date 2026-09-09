@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/02/news043_3.html",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2608/31/news055_2.html",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news010.html",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/amazon-anker-wall-light-cam-s4",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/msi-crosshair-16-hx-e14w",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-amazon-nonojicabbagepmax",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.4gamer.net/games/030/G103092/20260902043",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.4gamer.net/games/038/G103823/20260901039",
-      "posted_at": "2026-09-03"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260830001",
-      "posted_at": "2026-09-03"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/articles/2608/14/news067.html",
       "posted_at": "2026-09-04"
     },
@@ -227,6 +191,42 @@
     {
       "url": "https://www.4gamer.net/games/999/G999903/20260903074",
       "posted_at": "2026-09-09"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/content_13.html",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/osonoi/2026/09/datadogai_ai.html",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/nvidia_8.html",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-lht-xiaomi-redmi-note-17-pro-max-5g",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-10-hacks-every-intel-mac-user-should-know",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-pixel-11-has-potentially-life-saving-feature-need-to-turn-on-yourself",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.4gamer.net/games/041/G104104/20260910005",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.4gamer.net/games/948/G094835/20260909060",
+      "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.4gamer.net/games/945/G094536/20260909081",
+      "posted_at": "2026-09-10"
     }
   ]
 }
