@@ -1,18 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2608/14/news067.html",
-      "posted_at": "2026-09-04"
-    },
-    {
-      "url": "https://techtarget.itmedia.co.jp/tt/article/2609/04/2000001123/",
-      "posted_at": "2026-09-04"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news090.html",
-      "posted_at": "2026-09-04"
-    },
-    {
       "url": "https://techtarget.itmedia.co.jp/tt/article/2609/04/2000001123",
       "posted_at": "2026-09-05"
     },
@@ -227,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/945/G094536/20260909081",
       "posted_at": "2026-09-10"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2609/10/news056.html",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2609/10/news065.html",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/10/news055.html",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-amazon-sale-poco-f9-ultra",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/apple-event-2026-report",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/best-timing-buy-smartphone-roa",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101371/20260910054",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.4gamer.net/games/005/G100531/20260908059",
+      "posted_at": "2026-09-11"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101552/20260910012",
+      "posted_at": "2026-09-11"
     }
   ]
 }
