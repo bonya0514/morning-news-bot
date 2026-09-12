@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/subtop/features/di/all.html",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/430/4430936",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-costorypo-vk-aspen-review2-1583475328",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/poco-f9-ultra",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/playstation-27-inch-gaming-monitor-with-dualsense-charging-hook-review-exactly-as-the-name-suggests-and-nothing-more",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://www.4gamer.net/games/039/G103950/20260904015",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://www.4gamer.net/games/016/G101602/20260903006",
-      "posted_at": "2026-09-06"
-    },
-    {
-      "url": "https://www.4gamer.net/games/988/G098878/20260904009",
-      "posted_at": "2026-09-06"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2609/06/news004.html",
       "posted_at": "2026-09-07"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/015/G101549/20260910024",
       "posted_at": "2026-09-12"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001338",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2609/12/news015.html",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/_qwen_qwen.html",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/airpods-5-vs-airpods-4-anc-isnt-the-only-upgrade",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/smartphone/704",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/4d9895aa-483c-41fa-8503-87647f84aaf0",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.4gamer.net/games/085/G008540/20260911017",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.4gamer.net/games/520/G052062/20260911058",
+      "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/87482",
+      "posted_at": "2026-09-13"
     }
   ]
 }
