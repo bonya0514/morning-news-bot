@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/06/news004.html",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/got/2026/09/youtube_20268.html",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/432/4432472",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/ozlo-sleepbuds-2-review-comfy-sleep-earbuds-with-an-uncomfortable-price",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/fold-iphone-rumor",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/montbell-flex-water-pack-review-oea",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/038/G103897/20260903028",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260906001",
-      "posted_at": "2026-09-07"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/86790",
-      "posted_at": "2026-09-07"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/serial/2026/09/xchatgpt-6_astra--.html",
       "posted_at": "2026-09-08"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202609/87482",
       "posted_at": "2026-09-13"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/13/news007_3.html",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/166171",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/post_8697.html",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/new-airpods5-airplane-review",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/what-i-brought-for-apple-fall-event-2026",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-i-held-anker-soundcore-4-pro-sleep-earbuds",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20260913009",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/87333",
+      "posted_at": "2026-09-14"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/87424",
+      "posted_at": "2026-09-14"
     }
   ]
 }
