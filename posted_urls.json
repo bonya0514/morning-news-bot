@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/07/news072.html",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/08/news086_3.html",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news032.html",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/iphone",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/audio-tech/128",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/motorola-edge-70-plus-200-megapixel-camera-pantone-colors",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/799/G079934/20260907010",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260906004",
-      "posted_at": "2026-09-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/999/G999903/20260903074",
-      "posted_at": "2026-09-09"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/serial/2026/09/content_13.html",
       "posted_at": "2026-09-10"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202609/86792",
       "posted_at": "2026-09-15"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news057.html",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news026.html",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/9152ai.html",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/apples-new-airpods-have-better-anc-and-no-cameras",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-mechamecha-chameleon-switch2",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-foldable-iphone-discussion",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20260912006",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G104094/20260909061",
+      "posted_at": "2026-09-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/004/G100429/20260909078",
+      "posted_at": "2026-09-16"
     }
   ]
 }
