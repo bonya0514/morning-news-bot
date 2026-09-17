@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/10/news056.html",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/10/news065.html",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/10/news055.html",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-amazon-sale-poco-f9-ultra",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/apple-event-2026-report",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/best-timing-buy-smartphone-roa",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.4gamer.net/games/013/G101371/20260910054",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.4gamer.net/games/005/G100531/20260908059",
-      "posted_at": "2026-09-11"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101552/20260910012",
-      "posted_at": "2026-09-11"
-    },
-    {
       "url": "https://kn.itmedia.co.jp/kn/article/2609/11/2000001413",
       "posted_at": "2026-09-12"
     },
@@ -287,6 +251,42 @@
     {
       "url": "https://www.4gamer.net/games/013/G101399/20260916052",
       "posted_at": "2026-09-17"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2609/17/2000001546",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/itselect/ai_tool",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2609/17/news060.html",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/smartphone/705",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/audio-tech/128",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-dell-xps-13-2026-review",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.4gamer.net/games/945/G094596/20260917005/index_2.html",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.4gamer.net/games/038/G103882/20260916041/index_2.html",
+      "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.4gamer.net/games/529/G052961/20260917055",
+      "posted_at": "2026-09-18"
     }
   ]
 }
