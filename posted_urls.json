@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/11/2000001413",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/11/news082.html",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/10/news072.html",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-apple-watch-series-12-ultra-4",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/iphone-18-18pro-rumors-summary",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-cear-pave",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.4gamer.net/games/938/G093870/20260910062",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.4gamer.net/games/513/G051314/20260910022",
-      "posted_at": "2026-09-12"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101549/20260910024",
-      "posted_at": "2026-09-12"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001338",
       "posted_at": "2026-09-13"
     },
@@ -287,6 +251,42 @@
     {
       "url": "https://www.4gamer.net/games/529/G052961/20260917055",
       "posted_at": "2026-09-18"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/15/news053_2.html",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news045_3.html",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/435/4435499",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/review/6",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/asus-rog-gjallar-gaming-soundbar-review-sorry-did-you-say-something",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-antigravity-writes-better-code-than-claude-still-use-claude-first",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://www.4gamer.net/games/044/G104401/20260918033",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://www.4gamer.net/games/020/G102026/20260917016",
+      "posted_at": "2026-09-19"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/88029",
+      "posted_at": "2026-09-19"
     }
   ]
 }
