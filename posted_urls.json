@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/14/news069_2.html",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/14/news069.html",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/14/news048.html",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/iphone-18-pro-pro-max-rumors-archive",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/dell_xps13",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/apple-event-2026-john-ternus-debut",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G104096/20260909079",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/87144",
-      "posted_at": "2026-09-15"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/86792",
-      "posted_at": "2026-09-15"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news057.html",
       "posted_at": "2026-09-16"
     },
@@ -287,6 +251,42 @@
     {
       "url": "https://www.famitsu.com/game/title/72161/page/1",
       "posted_at": "2026-09-21"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2609/21/news029.html",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/18/news015.html",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/16/news029.html",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-ugreen-100w-charger-sale",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=83288",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/maki.takahashi/5",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://www.4gamer.net/games/903/G090320/20260921013",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20260920025",
+      "posted_at": "2026-09-22"
+    },
+    {
+      "url": "https://www.famitsu.com/game/title/68434/videos/page/1",
+      "posted_at": "2026-09-22"
     }
   ]
 }
