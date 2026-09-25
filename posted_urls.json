@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://techtarget.itmedia.co.jp/tt/article/2609/17/2000001546",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/itselect/ai_tool",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/17/news060.html",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/smartphone/705",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/audio-tech/128",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-dell-xps-13-2026-review",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/945/G094596/20260917005/index_2.html",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/038/G103882/20260916041/index_2.html",
-      "posted_at": "2026-09-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/529/G052961/20260917055",
-      "posted_at": "2026-09-18"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2609/15/news053_2.html",
       "posted_at": "2026-09-19"
     },
@@ -251,6 +215,38 @@
     {
       "url": "https://www.famitsu.com/article/202609/87570",
       "posted_at": "2026-09-24"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news034.html",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/09/waymogo_7.html",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/rinaf/2",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-android-unique-features-over-iphone",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-roomie-travel-goods-fxw",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.4gamer.net/games/036/G103600/20260924054",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.4gamer.net/games/020/G102072/20260924055",
+      "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.4gamer.net/games/945/G094561/20260924005",
+      "posted_at": "2026-09-25"
     }
   ]
 }
