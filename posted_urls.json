@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/15/news053_2.html",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news045_3.html",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/435/4435499",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/review/6",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/asus-rog-gjallar-gaming-soundbar-review-sorry-did-you-say-something",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609-antigravity-writes-better-code-than-claude-still-use-claude-first",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://www.4gamer.net/games/044/G104401/20260918033",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://www.4gamer.net/games/020/G102026/20260917016",
-      "posted_at": "2026-09-19"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/88029",
-      "posted_at": "2026-09-19"
-    },
-    {
       "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/14/news077.html",
       "posted_at": "2026-09-20"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/945/G094561/20260924005",
       "posted_at": "2026-09-25"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/25/news065.html",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/22/news024_2.html",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/24/news049.html",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/audio-tech",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/haraikawa_s",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/music-culture",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/018/G101851/20260924047",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/521/G052100/20260925048",
+      "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/044/G104497/20260924013/index_2.html",
+      "posted_at": "2026-09-26"
     }
   ]
 }
