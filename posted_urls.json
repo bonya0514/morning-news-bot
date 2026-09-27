@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/14/news077.html",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/435/4435658",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/435/4435513",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/7fa81580-456b-4241-b4b0-df696ba0cc95",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=94035",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-sony-wh-ch530-review",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/87844",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://app.famitsu.com/article/202609/88567",
-      "posted_at": "2026-09-20"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/88020",
-      "posted_at": "2026-09-20"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/articles/2609/16/news036_3.html",
       "posted_at": "2026-09-21"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.4gamer.net/games/044/G104497/20260924013/index_2.html",
       "posted_at": "2026-09-26"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2609/26/news001.html",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/27/news007_2.html",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://ascii.jp/arch/ive25/202609",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/beats360-nikeid-headphone-review",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-sonos-ace-ultra-review",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/020/G102072/20260924055/index_2.html",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096874/20260925042",
+      "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/89045",
+      "posted_at": "2026-09-27"
     }
   ]
 }
