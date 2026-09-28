@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/16/news036_3.html",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/20/news008.html",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news036.html",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/bose-open-earbuds-2026",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/audio-tech/4",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103549/20260917010",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.4gamer.net/games/044/G104431/20260918080",
-      "posted_at": "2026-09-21"
-    },
-    {
-      "url": "https://www.famitsu.com/game/title/72161/page/1",
-      "posted_at": "2026-09-21"
-    },
-    {
       "url": "https://www.itmedia.co.jp/mobile/amp/2609/21/news029.html",
       "posted_at": "2026-09-22"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.famitsu.com/article/202609/89045",
       "posted_at": "2026-09-27"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/27/news007_3.html",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news063.html",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/436/4436644",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/soko286/2",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-snapdragon-sound-elite-gen-2",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-motorola-signature-27",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/010/G101054/20260924007",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20260927003",
+      "posted_at": "2026-09-28"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202609/88981",
+      "posted_at": "2026-09-28"
     }
   ]
 }
