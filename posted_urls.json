@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/23/news029_2.html",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://ascii.jp/ai",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/436/4436645",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-costorypo-angelwings-start-1739226929",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609-remarkables-next-digital-notebook-fits-in-your-pocket-xei",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "http://wapi.lifehacker.jp/redirect.php?rid=71427",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103535/20260920026",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://app.famitsu.com/article/202609/88915",
-      "posted_at": "2026-09-24"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/87570",
-      "posted_at": "2026-09-24"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news034.html",
       "posted_at": "2026-09-25"
     },
@@ -247,6 +211,42 @@
     {
       "url": "https://www.famitsu.com/article/202609/87961",
       "posted_at": "2026-09-30"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/27/news007_2.html",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2609/30/news103.html",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/30/news100.html",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/review/134",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/esr-iphone18-accessories",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-meganeichiba-linse-display-ai-smart-glasses",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/911/G091134/20260925059",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/046/G104677/20260930028/index_2.html",
+      "posted_at": "2026-10-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/046/G104680/20260930032",
+      "posted_at": "2026-10-01"
     }
   ]
 }
