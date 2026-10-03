@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/25/news065.html",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/22/news024_2.html",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/24/news049.html",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/audio-tech",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/haraikawa_s",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/music-culture",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/018/G101851/20260924047",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/521/G052100/20260925048",
-      "posted_at": "2026-09-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/044/G104497/20260924013/index_2.html",
-      "posted_at": "2026-09-26"
-    },
-    {
       "url": "https://www.itmedia.co.jp/mobile/amp/2609/26/news001.html",
       "posted_at": "2026-09-27"
     },
@@ -287,6 +251,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/89685",
       "posted_at": "2026-10-02"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/02/news031.html",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/post_8002.html",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/02/news031_2.html",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/bose-noise-cancelling-wired-earbuds",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/music-culture",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2609-amazon-buffalo-usbc2p",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.4gamer.net/games/868/G086885/20261001025",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.4gamer.net/games/011/G101108/20261001032/index_2.html",
+      "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://www.4gamer.net/games/047/G104730/20261002025",
+      "posted_at": "2026-10-03"
     }
   ]
 }
