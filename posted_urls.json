@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2609/26/news001.html",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/27/news007_2.html",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://ascii.jp/arch/ive25/202609",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/beats360-nikeid-headphone-review",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.gizmodo.jp",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-sonos-ace-ultra-review",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.4gamer.net/games/020/G102072/20260924055/index_2.html",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.4gamer.net/games/968/G096874/20260925042",
-      "posted_at": "2026-09-27"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/89045",
-      "posted_at": "2026-09-27"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2609/27/news007_3.html",
       "posted_at": "2026-09-28"
     },
@@ -287,6 +251,42 @@
     {
       "url": "https://www.4gamer.net/games/047/G104730/20261002025",
       "posted_at": "2026-10-03"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/ai_2065.html",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/439/4439627",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/439/4439366",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/colorful-headphones-y2k-trend",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-fairphone-fairbuds-2-leak",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/articles",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/89843",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/89102",
+      "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/89840",
+      "posted_at": "2026-10-04"
     }
   ]
 }
