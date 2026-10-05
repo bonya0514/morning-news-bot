@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/27/news007_3.html",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news063.html",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/436/4436644",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286/2",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-snapdragon-sound-elite-gen-2",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-motorola-signature-27",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/010/G101054/20260924007",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20260927003",
-      "posted_at": "2026-09-28"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/88981",
-      "posted_at": "2026-09-28"
-    },
-    {
       "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001795",
       "posted_at": "2026-09-29"
     },
@@ -287,6 +251,38 @@
     {
       "url": "https://www.famitsu.com/article/202610/89840",
       "posted_at": "2026-10-04"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/09/2026_ai.html",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/osonoi/2026/10/aitypesafejevai5.html",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/iown_global_forumfuturesai.html",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-xiaomi-poco-f9-ultra-review",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/audio-tech",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/xiaomi-poco-f9-ultra-review",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261004007",
+      "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://www.famitsu.com/game/title/68067/page/1",
+      "posted_at": "2026-10-05"
     }
   ]
 }
