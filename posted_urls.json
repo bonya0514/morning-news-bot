@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001795",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/29/news022.html",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/437/4437272",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/articles/13",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/maki.takahashi/5",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-sony-wh-1000xm4c-review",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20260927001",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/668/G066881/20260925004",
-      "posted_at": "2026-09-29"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/89322",
-      "posted_at": "2026-09-29"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-09-30"
     },
@@ -283,6 +247,38 @@
     {
       "url": "https://www.famitsu.com/game/title/68067/page/1",
       "posted_at": "2026-10-05"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/45202610.html",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/photonlink_cpoai.html",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/438/4438644",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/nothing-headphone-1-pro-review",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610-lht-cio-portable-bath-speaker",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610checked-gmail-settings-and-found-someone-still-had-full-access-to-read-and-send-my-emails",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://www.4gamer.net/games/047/G104744/20261002041",
+      "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90044",
+      "posted_at": "2026-10-06"
     }
   ]
 }
