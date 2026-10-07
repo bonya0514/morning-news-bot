@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/serial/2026/09/xpezpez.html",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/24/2000001701",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-nothing-headphone-1-pro-review",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609garmin-fenix-9-pro-solar-review-a-damn-fine-watch",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.4gamer.net/games/938/G093853/20260928012",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/89360",
-      "posted_at": "2026-09-30"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202609/87961",
-      "posted_at": "2026-09-30"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/articles/2609/27/news007_2.html",
       "posted_at": "2026-10-01"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/90044",
       "posted_at": "2026-10-06"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/32026.html",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/taps/2026/10/jilpt.html",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/439/4439803",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/articles/2",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/maki.takahashi",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-anker-soundcore-p41i",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/047/G104744/20261002041/index_2.html",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/129/G012999/20261005009",
+      "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.4gamer.net/games/897/G089761/20261006006",
+      "posted_at": "2026-10-07"
     }
   ]
 }
