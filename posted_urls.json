@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2609/27/news007_2.html",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://built.itmedia.co.jp/bt/articles/2609/30/news103.html",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2609/30/news100.html",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/review/134",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/esr-iphone18-accessories",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-meganeichiba-linse-display-ai-smart-glasses",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/911/G091134/20260925059",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/046/G104677/20260930028/index_2.html",
-      "posted_at": "2026-10-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/046/G104680/20260930032",
-      "posted_at": "2026-10-01"
-    },
-    {
       "url": "https://built.itmedia.co.jp/bt/articles/2609/30/news112_3.html",
       "posted_at": "2026-10-02"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.4gamer.net/games/897/G089761/20261006006",
       "posted_at": "2026-10-07"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/01/news030.html",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/07/news040.html",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=80859",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/soko286",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610googles-new-web-image-editor-could-replace-canva-and-photoshop",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90257",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90259",
+      "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90298",
+      "posted_at": "2026-10-08"
     }
   ]
 }
