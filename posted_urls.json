@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://built.itmedia.co.jp/bt/articles/2609/30/news112_3.html",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/serial/2026/10/aimit.html",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/01/news078.html",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/computing/2",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/wearable/65",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609-sanwa-supply-soundbar",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/011/G101108/20261001032",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/978/G097828/20261001014",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/978/G097828/20261001014/index_2.html",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/subtop/archive",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/439/4439340",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/439/4439000",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609-lht-buffalo-trackball-bstbb700x-review",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609-nitori-new-lifestyle-products-2026",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2609-what-to-do-when-you-disagree-with-your-boss-in-four-st-1847891193",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/89721",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/89751",
-      "posted_at": "2026-10-02"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/89685",
-      "posted_at": "2026-10-02"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2610/02/news031.html",
       "posted_at": "2026-10-03"
     },
@@ -279,6 +207,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/90298",
       "posted_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/262785",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/261767",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/440/4440914",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/yamada_y",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/nothing-early-access-review-program",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/maki.takahashi/26",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20261004006",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101595/20261008007",
+      "posted_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90441",
+      "posted_at": "2026-10-09"
     }
   ]
 }
