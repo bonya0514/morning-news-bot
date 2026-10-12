@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/09/2026_ai.html",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/osonoi/2026/10/aitypesafejevai5.html",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/iown_global_forumfuturesai.html",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-xiaomi-poco-f9-ultra-review",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/audio-tech",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/xiaomi-poco-f9-ultra-review",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20261004007",
-      "posted_at": "2026-10-05"
-    },
-    {
-      "url": "https://www.famitsu.com/game/title/68067/page/1",
-      "posted_at": "2026-10-05"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/serial/2026/10/45202610.html",
       "posted_at": "2026-10-06"
     },
@@ -243,6 +211,38 @@
     {
       "url": "https://www.famitsu.com/article/202610/90076",
       "posted_at": "2026-10-11"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/aiai_osint_1.html",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/441/4441802",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/jbl-autumn-new-products",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/best-wireless-earbuds-right-now-2026",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/43025319-741d-436a-94d1-a1d7c844df12",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261011008",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/784/G078437/20261007020",
+      "posted_at": "2026-10-12"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90631",
+      "posted_at": "2026-10-12"
     }
   ]
 }
