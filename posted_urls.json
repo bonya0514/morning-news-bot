@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/author/262785",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/author/261767",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/440/4440914",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/yamada_y",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/nothing-early-access-review-program",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/maki.takahashi/26",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20261004006",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101595/20261008007",
-      "posted_at": "2026-10-09"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90441",
-      "posted_at": "2026-10-09"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2610/09/news066.html",
       "posted_at": "2026-10-10"
     },
@@ -227,6 +191,34 @@
     {
       "url": "https://www.4gamer.net/games/440/G044018/20261014018",
       "posted_at": "2026-10-15"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/15/news017.html",
+      "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2610/14/news038.html",
+      "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/irobot-roomba-max-775-review-a-respectable-roomba-redux",
+      "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/016/G101604/20261015008/index_2.html",
+      "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/016/G101604/20261015008",
+      "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/008/G100886/20261015007",
+      "posted_at": "2026-10-16"
     }
   ]
 }
