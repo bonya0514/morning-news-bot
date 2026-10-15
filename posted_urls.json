@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/01/news030.html",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/07/news040.html",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=80859",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610googles-new-web-image-editor-could-replace-canva-and-photoshop",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90257",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90259",
-      "posted_at": "2026-10-08"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90298",
-      "posted_at": "2026-10-08"
-    },
-    {
       "url": "https://www.itmedia.co.jp/author/262785",
       "posted_at": "2026-10-09"
     },
@@ -239,6 +203,30 @@
     {
       "url": "https://www.famitsu.com/article/202610/90540",
       "posted_at": "2026-10-14"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=80859",
+      "posted_at": "2026-10-15"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/realforce-rs1/",
+      "posted_at": "2026-10-15"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2609-sony-wh-ch530-review/",
+      "posted_at": "2026-10-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/048/G104897/20261009011",
+      "posted_at": "2026-10-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/941/G094160/20261008025",
+      "posted_at": "2026-10-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/440/G044018/20261014018",
+      "posted_at": "2026-10-15"
     }
   ]
 }
