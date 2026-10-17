@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/09/news066.html",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "https://built.itmedia.co.jp/bt/articles/2610/09/news051.html",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/09/news057.html",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286/2",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=79481",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=51960",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "https://www.4gamer.net/games/024/G102492/20261008015",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "https://www.4gamer.net/games/048/G104889/20261009007",
-      "posted_at": "2026-10-10"
-    },
-    {
-      "url": "https://www.4gamer.net/games/022/G102208/20261008013",
-      "posted_at": "2026-10-10"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/serial/2026/10/aiainttscsk4sier.html",
       "posted_at": "2026-10-11"
     },
@@ -255,6 +219,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/91008",
       "posted_at": "2026-10-16"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/articles/2610/14/news038.html",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/author/262785",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2610/16/news116.html",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.gizmodo.jp/articles/4963",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/soko286",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/dell-xps-13-event",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.4gamer.net/games/050/G105084/20261016024",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.4gamer.net/games/050/G105072/20261016010",
+      "posted_at": "2026-10-17"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G104094/20261016020",
+      "posted_at": "2026-10-17"
     }
   ]
 }
