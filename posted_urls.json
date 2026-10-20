@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://blogs.itmedia.co.jp/serial/2026/10/aiai_10.html",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/441/4441367",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/441/4441841/3",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/audio-tech/130",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/denon-dp-500bt",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-amazon-huawei-eyewear2",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20261011003",
-      "posted_at": "2026-10-13"
-    },
-    {
-      "url": "https://www.4gamer.net/games/024/G102492/20261008015/index_2.html",
-      "posted_at": "2026-10-13"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2610/10/news004.html",
       "posted_at": "2026-10-14"
     },
@@ -251,6 +219,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/90882",
       "posted_at": "2026-10-19"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/19/news015.html",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/2030ai3.html",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/ai_2159.html",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/smartphone/394",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/soko286/2",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/oekakidaisuki/2",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20261018001",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90519",
+      "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/90961",
+      "posted_at": "2026-10-20"
     }
   ]
 }
