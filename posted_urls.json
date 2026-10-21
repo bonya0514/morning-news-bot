@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/10/news004.html",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/author/158412",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/serial/2026/10/ot.html",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/bose-open-earbuds-2026/",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/jbl-autumn-new-products/",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/best-wireless-earbuds-right-now-2026/",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101544/20261013037",
-      "posted_at": "2026-10-14"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90540",
-      "posted_at": "2026-10-14"
-    },
-    {
       "url": "http://wapi.gizmodo.jp/redirect.php?rid=80859",
       "posted_at": "2026-10-15"
     },
@@ -255,6 +223,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/90961",
       "posted_at": "2026-10-20"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/20/news074.html",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/20/news074_2.html",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/14/2000002241",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/peelers_for_greenonions_repost",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-kyocera-duraforce-ex2-battery-swap",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/haisuiko_net_clean-sbl",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.4gamer.net/games/010/G101093/20261015041",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.4gamer.net/games/189/G018964/20261020050",
+      "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/91386",
+      "posted_at": "2026-10-21"
     }
   ]
 }
