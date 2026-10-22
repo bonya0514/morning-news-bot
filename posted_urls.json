@@ -1,30 +1,6 @@
 {
   "urls": [
     {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=80859",
-      "posted_at": "2026-10-15"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/realforce-rs1/",
-      "posted_at": "2026-10-15"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2609-sony-wh-ch530-review/",
-      "posted_at": "2026-10-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/048/G104897/20261009011",
-      "posted_at": "2026-10-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/941/G094160/20261008025",
-      "posted_at": "2026-10-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/440/G044018/20261014018",
-      "posted_at": "2026-10-15"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2610/15/news017.html",
       "posted_at": "2026-10-16"
     },
@@ -259,6 +235,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/91386",
       "posted_at": "2026-10-21"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/20/news044.html",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/2027ai_1.html",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=61515",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/mmmryo",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-plaud-one-review-ai-voice-recorder",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://www.4gamer.net/games/000/G100071/20261019025",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://www.4gamer.net/games/046/G104608/20261021004",
+      "posted_at": "2026-10-22"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/91604",
+      "posted_at": "2026-10-22"
     }
   ]
 }
