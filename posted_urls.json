@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002265",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/2030kwai.html",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/442/4442706",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=82947",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/chisato_kuroda",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=49584",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/050/G105042/20261015020",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/050/G105059/20261015035/index_2.html",
-      "posted_at": "2026-10-18"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/91175",
-      "posted_at": "2026-10-18"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/business20/2026/10/nvidia_open_agent_safety_platform.html",
       "posted_at": "2026-10-19"
     },
@@ -243,6 +207,42 @@
     {
       "url": "https://www.4gamer.net/games/050/G105072/20261023012",
       "posted_at": "2026-10-24"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2610/24/news014.html",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/444/4444608",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/445/4445021",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=51960",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610amazon-sale-hoshimono",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "http://wapi.lifehacker.jp/redirect.php?rid=79050",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://www.4gamer.net/games/010/G101093/20261022005/index_2.html",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://www.4gamer.net/games/050/G105059/20261022048/index_2.html",
+      "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/91692",
+      "posted_at": "2026-10-25"
     }
   ]
 }
