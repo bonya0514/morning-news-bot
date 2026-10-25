@@ -1,34 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/nvidia_open_agent_safety_platform.html",
-      "posted_at": "2026-10-19"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=79481",
-      "posted_at": "2026-10-19"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/amazon-sale-open-earphone",
-      "posted_at": "2026-10-19"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-anker-soundcore-liberty5",
-      "posted_at": "2026-10-19"
-    },
-    {
-      "url": "https://app.famitsu.com/article/202610/90519",
-      "posted_at": "2026-10-19"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/91101",
-      "posted_at": "2026-10-19"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90882",
-      "posted_at": "2026-10-19"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2610/19/news015.html",
       "posted_at": "2026-10-20"
     },
@@ -243,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/91692",
       "posted_at": "2026-10-25"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/subtop/archive",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/subtop/archive",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/444/4444689",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-sonos-beam-ultra-review",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/soko286/34",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-sanwa-clamp-power-strip",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261025006",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/91700",
+      "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/91759",
+      "posted_at": "2026-10-26"
     }
   ]
 }
