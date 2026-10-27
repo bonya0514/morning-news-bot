@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/19/news015.html",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/2030ai3.html",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/ai_2159.html",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/smartphone/394",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286/2",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/oekakidaisuki/2",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20261018001",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90519",
-      "posted_at": "2026-10-20"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/90961",
-      "posted_at": "2026-10-20"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2610/20/news074.html",
       "posted_at": "2026-10-21"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/91759",
       "posted_at": "2026-10-26"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news027.html",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/itsolutionjuku/2026/10/1ai_19.html",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/itsolutionjuku/2026/10/post_1267.html",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/chisato_kuroda",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/what-is-iphoneduo_news",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/articles",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/052/G105275/20261023050",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/954/G095479/20261025001",
+      "posted_at": "2026-10-27"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule/ps5/202610?options=ceroz",
+      "posted_at": "2026-10-27"
     }
   ]
 }
