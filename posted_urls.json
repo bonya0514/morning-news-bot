@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/20/news044.html",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/2027ai_1.html",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=61515",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/mmmryo",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-plaud-one-review-ai-voice-recorder",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://www.4gamer.net/games/000/G100071/20261019025",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://www.4gamer.net/games/046/G104608/20261021004",
-      "posted_at": "2026-10-22"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/91604",
-      "posted_at": "2026-10-22"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2610/21/news069.html",
       "posted_at": "2026-10-23"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/92255",
       "posted_at": "2026-10-28"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/29/news011.html",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/28/news086.html",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/29/news043.html",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-macbook-pro-oled-touch-2026",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-kinoko-no-yama-wireless-earphones-pro",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-surface-laptop-ultra-review",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.4gamer.net/games/053/G105389/20261029004",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/92389",
+      "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/92412",
+      "posted_at": "2026-10-29"
     }
   ]
 }
