@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/21/news069.html",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://built.itmedia.co.jp/bt/articles/2610/22/news080.html",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/dsx_pod14.html",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/bose-ultra-open-earbuds-2nd-gen-review",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/category/product/3601",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-costorypo-angelwings-review2-1739226929",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/052/G105245/20261022026",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/924/G092453/20261022023/index_2.html",
-      "posted_at": "2026-10-23"
-    },
-    {
-      "url": "https://www.4gamer.net/games/037/G103749/20261022039",
-      "posted_at": "2026-10-23"
-    },
-    {
       "url": "https://blogs.itmedia.co.jp/business20/2026/10/aiworld_modelvla.html",
       "posted_at": "2026-10-24"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/92412",
       "posted_at": "2026-10-29"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/446/4446198",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/446/4446470",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/446/4446455",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-cmf-speaker-m-review",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/iphone-duo-review-2026",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/machi-ya-amasteryactiveintercom-start-977255",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://www.4gamer.net/games/054/G105421/20261029041",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://www.4gamer.net/games/054/G105431/20261029061",
+      "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/92193",
+      "posted_at": "2026-10-30"
     }
   ]
 }
