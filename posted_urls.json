@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://blogs.itmedia.co.jp/business20/2026/10/aiworld_modelvla.html",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2610/22/news068.html",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/444/4444317",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/yamada_y",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-sony-wf-1000xm5-sale",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/review/158",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.4gamer.net/games/709/G070944/20261022011",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.4gamer.net/games/041/G104116/20261023051",
-      "posted_at": "2026-10-24"
-    },
-    {
-      "url": "https://www.4gamer.net/games/050/G105072/20261023012",
-      "posted_at": "2026-10-24"
-    },
-    {
       "url": "https://www.itmedia.co.jp/mobile/amp/2610/24/news014.html",
       "posted_at": "2026-10-25"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/92193",
       "posted_at": "2026-10-30"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/business20/2026/10/post_8004.html",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/28/news068_4.html",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/29/news028.html",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-amazon-huawei-freebuds-neo",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-ipad-mini-hands-on-review",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-flight-entertainment-gadgets",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.4gamer.net/games/968/G096815/20261029048",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.4gamer.net/games/651/G065189/20261029027",
+      "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20261028003",
+      "posted_at": "2026-10-31"
     }
   ]
 }
