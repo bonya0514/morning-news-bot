@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2610/24/news014.html",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/444/4444608",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/445/4445021",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=51960",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610amazon-sale-hoshimono",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "http://wapi.lifehacker.jp/redirect.php?rid=79050",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "https://www.4gamer.net/games/010/G101093/20261022005/index_2.html",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "https://www.4gamer.net/games/050/G105059/20261022048/index_2.html",
-      "posted_at": "2026-10-25"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/91692",
-      "posted_at": "2026-10-25"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/subtop/archive",
       "posted_at": "2026-10-26"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/991/G999110/20261028003",
       "posted_at": "2026-10-31"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/01/news003_2.html",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/bmw3figure_02.html",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/28/news068_3.html",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/a6e5b198-b3b6-42e1-b981-908d338754ed",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2605-lht-muji-box-and-file",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610-how-to-tell-if-a-phone-app-is-collecting-too-much-data-ijv",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/054/G105423/20261029040",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G104087/20261031013",
+      "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.4gamer.net/games/966/G096640/20261029057",
+      "posted_at": "2026-11-01"
     }
   ]
 }
