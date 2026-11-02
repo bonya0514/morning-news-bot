@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://atmarkit.itmedia.co.jp/ait/subtop/archive",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/subtop/archive",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/444/4444689",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-sonos-beam-ultra-review",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286/34",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-sanwa-clamp-power-strip",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20261025006",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/91700",
-      "posted_at": "2026-10-26"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/91759",
-      "posted_at": "2026-10-26"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news027.html",
       "posted_at": "2026-10-27"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/966/G096640/20261029057",
       "posted_at": "2026-11-01"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/02/2000002740",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/01/news003.html",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/mayumine/34",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/machi-ya-amasteryactiveintercom-start-977255",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610_gizmodo_2609-sony-wh-1000xm4c-review",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261101010",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/022/G102226/20261029021/index_2.html",
+      "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.4gamer.net/games/005/G100594/20261028054",
+      "posted_at": "2026-11-02"
     }
   ]
 }
