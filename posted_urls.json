@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news027.html",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/itsolutionjuku/2026/10/1ai_19.html",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/itsolutionjuku/2026/10/post_1267.html",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/chisato_kuroda",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/what-is-iphoneduo_news",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://www.gizmodo.jp/articles",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://www.4gamer.net/games/052/G105275/20261023050",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20261025001",
-      "posted_at": "2026-10-27"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/ps5/202610?options=ceroz",
-      "posted_at": "2026-10-27"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news017.html",
       "posted_at": "2026-10-28"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/92517",
       "posted_at": "2026-11-02"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2611/02/news065.html",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2611/02/news035.html",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://built.itmedia.co.jp/bt/articles/2611/02/news045.html",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/chisato_kuroda",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/ef8757e5-f809-462d-a5e1-800fc5ca8fe6",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-common-password-trick-more-dangerous-than-you-think-vda",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.4gamer.net/games/029/G102919/20261102014/index_2.html",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.4gamer.net/games/029/G102919/20261102014",
+      "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://www.4gamer.net/games/041/G104118/20261102013",
+      "posted_at": "2026-11-03"
     }
   ]
 }
