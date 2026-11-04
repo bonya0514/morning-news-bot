@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/26/news017.html",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/serial/2026/10/content_14.html",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://ascii.jp/ai",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-siri-ai-japanese-support",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/hitachi-gpu-cold-plate-cooling-power-reduction",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/iphone-duo_unboxing_video",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://www.4gamer.net/games/897/G089783/20261027006",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://www.famitsu.com/schedule/switch/202610?options=ceroz",
-      "posted_at": "2026-10-28"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/92255",
-      "posted_at": "2026-10-28"
-    },
-    {
       "url": "https://www.itmedia.co.jp/enterprise/articles/2610/29/news011.html",
       "posted_at": "2026-10-29"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.4gamer.net/games/041/G104118/20261102013",
       "posted_at": "2026-11-03"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/11/waymobz4x20271006ai.html",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/nyt.html",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/447/4447969",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-anker-liberty-buds-2",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/machi-ya-magdgetheadphone-end-970996",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610-this-android-screen-explained-why-my-battery-drains-faster-at-home",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/92431",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/92524",
+      "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202610/92441",
+      "posted_at": "2026-11-04"
     }
   ]
 }
