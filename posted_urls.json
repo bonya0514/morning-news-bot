@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/29/news011.html",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/28/news086.html",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/29/news043.html",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-macbook-pro-oled-touch-2026",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-kinoko-no-yama-wireless-earphones-pro",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-surface-laptop-ultra-review",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.4gamer.net/games/053/G105389/20261029004",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/92389",
-      "posted_at": "2026-10-29"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/92412",
-      "posted_at": "2026-10-29"
-    },
-    {
       "url": "https://ascii.jp/elem/000/004/446/4446198",
       "posted_at": "2026-10-30"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.famitsu.com/article/202610/92441",
       "posted_at": "2026-11-04"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/04/news066.html",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002869",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/05/news034.html",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-ai-assistant-earphone-vs-glasses",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-amazon-anker-soundcore-p31i",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610-amazon-final-porta-wirelessheadphone",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.4gamer.net/games/002/G100206/20261104055/index_2.html",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/92756",
+      "posted_at": "2026-11-05"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/92790",
+      "posted_at": "2026-11-05"
     }
   ]
 }
