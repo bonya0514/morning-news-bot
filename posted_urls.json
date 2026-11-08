@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/01/news003_2.html",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/serial/2026/10/bmw3figure_02.html",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2610/28/news068_3.html",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/a6e5b198-b3b6-42e1-b981-908d338754ed",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2605-lht-muji-box-and-file",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-how-to-tell-if-a-phone-app-is-collecting-too-much-data-ijv",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/054/G105423/20261029040",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G104087/20261031013",
-      "posted_at": "2026-11-01"
-    },
-    {
-      "url": "https://www.4gamer.net/games/966/G096640/20261029057",
-      "posted_at": "2026-11-01"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-11-02"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.4gamer.net/games/954/G095479/20261031009",
       "posted_at": "2026-11-07"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/07/news007.html",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/448/4448860",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://weekly.ascii.jp/elem/000/004/448/4448552",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/nakagawa_m",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/smartphone",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2610-i-changed-a-couple-of-android-settings-to-improve-charging",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.4gamer.net/games/914/G091464/20261105001/index_2.html",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/92322",
+      "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/92320",
+      "posted_at": "2026-11-08"
     }
   ]
 }
