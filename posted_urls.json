@@ -1,70 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/02/2000002740",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/01/news003.html",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/mayumine/34",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/machi-ya-amasteryactiveintercom-start-977255",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610_gizmodo_2609-sony-wh-1000xm4c-review",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20261101010",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/022/G102226/20261029021/index_2.html",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.4gamer.net/games/005/G100594/20261028054",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/446/4446919",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/446/4446545",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-lht-walmgoods",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-lht-kokuyo-campus-magic-fit",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/92768",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/92387",
-      "posted_at": "2026-11-02"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202610/92517",
-      "posted_at": "2026-11-02"
-    },
-    {
       "url": "https://www.itmedia.co.jp/mobile/amp/2611/02/news065.html",
       "posted_at": "2026-11-03"
     },
@@ -279,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202611/92320",
       "posted_at": "2026-11-08"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/448/4448436",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/articles",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/haraikawa_s",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2610-iphone-to-android-switch-review",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261108001",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G104087/20261102034",
+      "posted_at": "2026-11-09"
+    },
+    {
+      "url": "https://www.4gamer.net/games/018/G101878/20261106050",
+      "posted_at": "2026-11-09"
     }
   ]
 }
