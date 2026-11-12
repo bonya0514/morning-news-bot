@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/04/news066.html",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002869",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/05/news034.html",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-ai-assistant-earphone-vs-glasses",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2611-amazon-anker-soundcore-p31i",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-amazon-final-porta-wirelessheadphone",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.4gamer.net/games/002/G100206/20261104055/index_2.html",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/92756",
-      "posted_at": "2026-11-05"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/92790",
-      "posted_at": "2026-11-05"
-    },
-    {
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/02/news017.html",
       "posted_at": "2026-11-06"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.famitsu.com/article/202611/93069",
       "posted_at": "2026-11-11"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003093",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/11/2000003083",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003044",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/sony-mdr-3r-headphone-review-nostalgia",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/review/247",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.gizmodo.jp/tag/review/248",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101542/20261111030",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.4gamer.net/games/057/G105759/20261111029",
+      "posted_at": "2026-11-12"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/93719",
+      "posted_at": "2026-11-12"
     }
   ]
 }
