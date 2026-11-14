@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/06/news057.html",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/449/4449018",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/448/4448867",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-sony-inzone-buds-sale",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/hiroyuki_tsuneyoshi",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-amazon-ipad-mini-a20",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/056/G105630/20261106039",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/035/G103535/20261106004",
-      "posted_at": "2026-11-07"
-    },
-    {
-      "url": "https://www.4gamer.net/games/954/G095479/20261031009",
-      "posted_at": "2026-11-07"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2611/07/news007.html",
       "posted_at": "2026-11-08"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/013/G101346/20261111041/index_2.html",
       "posted_at": "2026-11-13"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/450/4450505",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/450/4450500",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/450/4450494",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-google-black-friday-pixel-sale",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/bondic_liquid_plastic_repair_tool",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-amazon-motorola-edge-70-fusion",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.4gamer.net/games/635/G063507/20261112039",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.4gamer.net/games/013/G101346/20261111041",
+      "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101544/20261112034",
+      "posted_at": "2026-11-14"
     }
   ]
 }
