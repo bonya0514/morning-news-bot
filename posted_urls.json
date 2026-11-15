@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/07/news007.html",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/448/4448860",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://weekly.ascii.jp/elem/000/004/448/4448552",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/nakagawa_m",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/smartphone",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-i-changed-a-couple-of-android-settings-to-improve-charging",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://www.4gamer.net/games/914/G091464/20261105001/index_2.html",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/92322",
-      "posted_at": "2026-11-08"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/92320",
-      "posted_at": "2026-11-08"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-11-09"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/015/G101544/20261112034",
       "posted_at": "2026-11-14"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/15/news004.html",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/15/news004_3.html",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/450/4450697",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-anker-sleep-earbuds-4-pro",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-iphone-to-android-reasons",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-touchscreen-macbook-pro-new-products",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101544/20261112034/index_2.html",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/930/G093051/20261113005/index_2.html",
+      "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.4gamer.net/games/998/G099824/20261113052/index_2.html",
+      "posted_at": "2026-11-15"
     }
   ]
 }
