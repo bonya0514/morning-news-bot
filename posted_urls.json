@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/448/4448436",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/articles",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/haraikawa_s",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2610-iphone-to-android-switch-review",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20261108001",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G104087/20261102034",
-      "posted_at": "2026-11-09"
-    },
-    {
-      "url": "https://www.4gamer.net/games/018/G101878/20261106050",
-      "posted_at": "2026-11-09"
-    },
-    {
       "url": "https://kn.itmedia.co.jp/kn/article/2611/10/2000003030",
       "posted_at": "2026-11-10"
     },
@@ -251,6 +215,42 @@
     {
       "url": "https://www.4gamer.net/games/998/G099824/20261113052/index_2.html",
       "posted_at": "2026-11-15"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/451/4451170",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/451/4451178/2",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-anker-aeroclip-2",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://www.gizmodo.jp/articles",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2607-lht-earfun-ua100",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/991/G999110/20261109030",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261115006",
+      "posted_at": "2026-11-16"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/93802",
+      "posted_at": "2026-11-16"
     }
   ]
 }
