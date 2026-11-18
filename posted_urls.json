@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://blogs.itmedia.co.jp/yasusasaki/2026/11/base44_2.html",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://blogs.itmedia.co.jp/osonoi/2026/11/kubecon_na_2026aiday_0.html",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/450/4450149",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-ipad-mini-nano-texture-display",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/tag/apple",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/chitra99",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://www.4gamer.net/games/002/G100206/20261104055",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://www.4gamer.net/games/002/G100206/20261102001",
-      "posted_at": "2026-11-11"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/93069",
-      "posted_at": "2026-11-11"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003093",
       "posted_at": "2026-11-12"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.famitsu.com/article/202611/92322",
       "posted_at": "2026-11-17"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2611/17/2000003221",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news049.html",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/amp/2611/17/news011.html",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/soko286/2",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/fairphone_fairbuds-2_review_sustainable_repairable-earbuds",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.gizmodo.jp/author/kogure0083",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.4gamer.net/games/014/G101452/20261117031",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.4gamer.net/games/945/G094561/20261117021",
+      "posted_at": "2026-11-18"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/93794",
+      "posted_at": "2026-11-18"
     }
   ]
 }
