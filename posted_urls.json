@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/11/news018.html",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/12/2000003082",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003162",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-bluetooth-lossless-wireless-audio-hdt",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/tatsumi",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/machi-ya-gpn3btr-additional3-967772",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.4gamer.net/games/013/G101380/20261112032",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.4gamer.net/games/041/G104129/20261112026",
-      "posted_at": "2026-11-13"
-    },
-    {
-      "url": "https://www.4gamer.net/games/013/G101346/20261111041/index_2.html",
-      "posted_at": "2026-11-13"
-    },
-    {
       "url": "https://ascii.jp/elem/000/004/450/4450505",
       "posted_at": "2026-11-14"
     },
@@ -279,6 +243,42 @@
     {
       "url": "https://www.4gamer.net/games/059/G105909/screenshot.html?mode=thumbs",
       "posted_at": "2026-11-19"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003279",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/19/2000003295",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/453/4453224?topnew=1",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-blue-phone-ai-agent-smartphone",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/bose-noise-cancelling-wired-earbuds-review",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "http://wapi.gizmodo.jp/redirect.php?rid=62863",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://www.4gamer.net/games/015/G101576/20261119009",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://www.4gamer.net/games/758/G075801/20261118005",
+      "posted_at": "2026-11-20"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/94404",
+      "posted_at": "2026-11-20"
     }
   ]
 }
