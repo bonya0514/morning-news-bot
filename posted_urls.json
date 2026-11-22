@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/15/news004.html",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/15/news004_3.html",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/450/4450697",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-anker-sleep-earbuds-4-pro",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2611-iphone-to-android-reasons",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2611-touchscreen-macbook-pro-new-products",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101544/20261112034/index_2.html",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/930/G093051/20261113005/index_2.html",
-      "posted_at": "2026-11-15"
-    },
-    {
-      "url": "https://www.4gamer.net/games/998/G099824/20261113052/index_2.html",
-      "posted_at": "2026-11-15"
-    },
-    {
       "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
       "posted_at": "2026-11-16"
     },
@@ -275,6 +239,42 @@
     {
       "url": "https://www.famitsu.com/article/202611/94625",
       "posted_at": "2026-11-21"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/amp/2611/22/news002.html",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/spv/2611/22/news002_2.html",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/453/4453335",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-pixel-7-pro-still-has-display-advantage",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/amex_gold_comparison",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-jeff-bezos-sleep-productivity?page=2",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.4gamer.net/s/G101576.261119009",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.4gamer.net/games/993/G099378/20261120047",
+      "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/94431",
+      "posted_at": "2026-11-22"
     }
   ]
 }
