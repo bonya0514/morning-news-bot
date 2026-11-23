@@ -1,70 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/451/4451170",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/451/4451178/2",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-anker-aeroclip-2",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.gizmodo.jp/articles",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2607-lht-earfun-ua100",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.4gamer.net/games/991/G999110/20261109030",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.4gamer.net/games/040/G004099/20261115006",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/93802",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/441/4441167",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2611-turn-old-android-into-wifi-extender",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2611-ray-ban-meta-audio-review",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2610-gadgets-for-a-comfortable-flight",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/93993",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/93924",
-      "posted_at": "2026-11-16"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/93572",
-      "posted_at": "2026-11-16"
-    },
-    {
       "url": "https://techtarget.itmedia.co.jp/tt/article/2611/17/2000003221/",
       "posted_at": "2026-11-17"
     },
@@ -275,6 +211,42 @@
     {
       "url": "https://www.famitsu.com/article/202611/94431",
       "posted_at": "2026-11-22"
+    },
+    {
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/20/2000003331",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/452/4452842",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/453/4453224",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/iphone-imessage-group-chat-vulnerability-fix",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-apple-pokemon-applestore-giftcard-kajicchu",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/apple-tv_video-podcasts",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://www.4gamer.net/games/040/G004099/20261122020",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://www.4gamer.net/games/048/G104889/20261123001",
+      "posted_at": "2026-11-23"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/94731",
+      "posted_at": "2026-11-23"
     }
   ]
 }
