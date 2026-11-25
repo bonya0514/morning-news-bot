@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://techtarget.itmedia.co.jp/tt/article/2611/17/2000003221",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news049.html",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.itmedia.co.jp/mobile/amp/2611/17/news011.html",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/soko286/2",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/fairphone_fairbuds-2_review_sustainable_repairable-earbuds",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.gizmodo.jp/author/kogure0083",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/014/G101452/20261117031",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.4gamer.net/games/945/G094561/20261117021",
-      "posted_at": "2026-11-18"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/93794",
-      "posted_at": "2026-11-18"
-    },
-    {
       "url": "https://kn.itmedia.co.jp/kn/article/2611/19/2000003290",
       "posted_at": "2026-11-19"
     },
@@ -243,6 +207,42 @@
     {
       "url": "https://www.famitsu.com/article/202611/94415",
       "posted_at": "2026-11-24"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/22/news002.html",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/454/4454293",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/453/4453818/3",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-xiaomi-clip-earcuff-earphones",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/macbook-neo-2-ipad-spring-update",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-google-foldable-smartphone-app-requirement-2027",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://www.4gamer.net/script/ad/click_2024_winter_game.php?url=14",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://www.4gamer.net/script/ad/click_4Gamer_Winter_Fes_2025.php?url=48",
+      "posted_at": "2026-11-25"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/94935",
+      "posted_at": "2026-11-25"
     }
   ]
 }
