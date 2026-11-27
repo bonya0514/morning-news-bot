@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003279",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/19/2000003295",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/453/4453224?topnew=1",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/2611-blue-phone-ai-agent-smartphone",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/bose-noise-cancelling-wired-earbuds-review",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "http://wapi.gizmodo.jp/redirect.php?rid=62863",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://www.4gamer.net/games/015/G101576/20261119009",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://www.4gamer.net/games/758/G075801/20261118005",
-      "posted_at": "2026-11-20"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/94404",
-      "posted_at": "2026-11-20"
-    },
-    {
       "url": "https://monoist.itmedia.co.jp/mn/articles/2611/19/news033_2.html",
       "posted_at": "2026-11-21"
     },
@@ -239,6 +203,38 @@
     {
       "url": "https://www.4gamer.net/games/061/G106150/20261125052",
       "posted_at": "2026-11-26"
+    },
+    {
+      "url": "https://ascii.jp/ai",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/454/4454603",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-xreal-aura-review",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/meta-greenhouse-gas-emissions-target-review",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-oura-ring-can-now-plan-jet-lag-recovery-starting-next-flight",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/709/G070944/20261127007",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/129/G012999/20261127004",
+      "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://www.4gamer.net/games/983/G098319/20261126025",
+      "posted_at": "2026-11-27"
     }
   ]
 }
