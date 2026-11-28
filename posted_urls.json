@@ -1,38 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/19/news033_2.html",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/452/4452710",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://ascii.jp/elem/000/004/452/4452422",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://www.gizmodo.jp/article/nitori-audio-home-appliances-2026",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://www.lifehacker.jp/article/2611-why-switched-from-spotify-to-youtube-music-for-background-listening-rrd",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://www.4gamer.net/games/060/G106026/screenshot.html?mode=thumbs",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://www.4gamer.net/games/059/G105989/screenshot.html",
-      "posted_at": "2026-11-21"
-    },
-    {
-      "url": "https://www.famitsu.com/article/202611/94625",
-      "posted_at": "2026-11-21"
-    },
-    {
       "url": "https://www.itmedia.co.jp/pcuser/amp/2611/22/news002.html",
       "posted_at": "2026-11-22"
     },
@@ -235,6 +203,34 @@
     {
       "url": "https://www.4gamer.net/games/983/G098319/20261126025",
       "posted_at": "2026-11-27"
+    },
+    {
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/27/news049.html",
+      "posted_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/category/product/3630",
+      "posted_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.gizmodo.jp/category/product/2",
+      "posted_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2611-like-a-dragon-series-summary",
+      "posted_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.famitsu.com/schedule/switch2/202612?options=none",
+      "posted_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/95201",
+      "posted_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/94838",
+      "posted_at": "2026-11-28"
     }
   ]
 }
